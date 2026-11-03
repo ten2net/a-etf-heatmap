@@ -346,6 +346,20 @@ let quoteCache: QuoteSnapshot | null = null;
 let quotePromise: Promise<QuoteSnapshot> | null = null;
 let hasLoggedFallbackWarning = false;
 
+type QuoteProgressListener = (batch: { updatedAt: string; quotes: Record<string, RemoteQuoteValue> }) => void;
+
+const quoteProgressListeners = new Set<QuoteProgressListener>();
+
+function publishQuoteProgress(batch: { updatedAt: string; quotes: Record<string, RemoteQuoteValue> }) {
+  for (const listener of quoteProgressListeners) {
+    try {
+      listener(batch);
+    } catch {
+      // 单个监听器异常不影响其他订阅者。
+    }
+  }
+}
+
 function toFiniteNumber(value: unknown): number | null {
   if (value === null || value === undefined || value === "" || value === "-") {
     return null;
@@ -498,7 +512,9 @@ async function fetchLiveQuoteSnapshot(): Promise<QuoteSnapshot> {
 
   const results = await mapWithConcurrency(batches, tencentConcurrency, async (batch) => {
     try {
-      return parseTencentQuoteBatch(await fetchTencentQuoteBatch(batch));
+      const parsed = parseTencentQuoteBatch(await fetchTencentQuoteBatch(batch));
+      publishQuoteProgress(parsed);
+      return parsed;
     } catch {
       return null;
     }
@@ -783,6 +799,95 @@ function getFallbackTreemapData(market: MarketKey, period: HeatmapPeriodKey): Tr
 /* -------------------------------------------------------------------------- */
 /* 对外接口                                                                     */
 /* -------------------------------------------------------------------------- */
+
+export async function streamQuoteData(options: {
+  market: MarketKey;
+  period: HeatmapPeriodKey;
+  codes?: string[];
+  signal?: AbortSignal;
+  emit: (event: ProgressiveQuoteEvent) => void;
+}) {
+  const stocks = options.codes?.length
+    ? resolveStocksByCodes(options.codes)
+    : filterEtfs(baselineEtfs, options.market);
+  const orderedStocks = [...stocks].sort((left, right) => (right.turnoverAmount ?? 0) - (left.turnoverAmount ?? 0));
+  const allowedCodes = new Set(orderedStocks.map((stock) => stock.code));
+  const deliveredCodes = new Set<string>();
+  const totalCount = orderedStocks.length;
+  let latestUpdatedAt = "";
+
+  const emitBatch = (batch: { updatedAt: string; quotes: Record<string, RemoteQuoteValue> }) => {
+    if (options.signal?.aborted) {
+      return;
+    }
+
+    const quotes: Record<string, QuoteValue> = {};
+    for (const [code, remoteQuote] of Object.entries(batch.quotes)) {
+      if (!allowedCodes.has(code) || deliveredCodes.has(code)) {
+        continue;
+      }
+
+      const changePct = getChangeForPeriod(remoteQuote.changes, options.period, null);
+      if (changePct === null) {
+        continue;
+      }
+
+      quotes[code] = {
+        price: remoteQuote.price,
+        changePct,
+        turnoverAmount: remoteQuote.turnoverAmount,
+      };
+      deliveredCodes.add(code);
+    }
+
+    if (Object.keys(quotes).length === 0) {
+      return;
+    }
+
+    if (batch.updatedAt && (!latestUpdatedAt || batch.updatedAt > latestUpdatedAt)) {
+      latestUpdatedAt = batch.updatedAt;
+    }
+
+    options.emit({
+      type: "quotes",
+      quotes,
+      loadedCount: deliveredCodes.size,
+      totalCount,
+      updatedAt: latestUpdatedAt,
+    });
+  };
+
+  options.emit({ type: "start", totalCount });
+  quoteProgressListeners.add(emitBatch);
+
+  try {
+    const snapshot = await getQuoteSnapshot();
+    requirePeriodDataCoverage(stocks, snapshot.quotes, options.period);
+
+    const finalEntries = orderedStocks
+      .map((stock) => [stock.code, snapshot.quotes[stock.code]] as const)
+      .filter((entry): entry is readonly [string, RemoteQuoteValue] => Boolean(entry[1]));
+
+    for (let index = 0; index < finalEntries.length; index += 60) {
+      emitBatch({
+        updatedAt: snapshot.updatedAt,
+        quotes: Object.fromEntries(finalEntries.slice(index, index + 60)),
+      });
+    }
+
+    const source: MarketDataSource =
+      totalCount === 0 || deliveredCodes.size >= totalCount * 0.9 ? "direct" : "stale";
+    options.emit({
+      type: "complete",
+      loadedCount: deliveredCodes.size,
+      totalCount,
+      updatedAt: latestUpdatedAt || snapshot.updatedAt,
+      source,
+    });
+  } finally {
+    quoteProgressListeners.delete(emitBatch);
+  }
+}
 
 export async function getTreemapData(
   market: MarketKey,

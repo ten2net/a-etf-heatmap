@@ -1,0 +1,21 @@
+# A 股 ETF 热力图：挂在 /etf 上下文路径下启动
+# 访问入口：http://<主机IP>:8090/etf
+services:
+  web:
+    build:
+      context: .
+      args:
+        # 必须在构建期传入：客户端 fetch 前缀在 next build 时内联
+        NEXT_PUBLIC_BASE_PATH: /etf
+    ports:
+      - "8090:3000"
+    restart: unless-stopped
+    mem_limit: 1g
+    environment:
+      NODE_OPTIONS: "--max-old-space-size=1024"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/etf/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s

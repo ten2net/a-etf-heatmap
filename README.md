@@ -230,3 +230,13 @@ pnpm refresh:data  # 校验通过后更新两份内置快照
 ## License
 
 MIT
+
+## Docker 部署（/etf 子路径）
+
+应用以 `/etf` 为上下文路径构建并启动，访问入口：`http://<主机IP>:8090/etf`
+
+`bash`
+docker compose up -d --build
+``
+
+子路径前缀由环境变量 `NEXT_PUBLIC_BASE_PATH` 控制（构建期内联），如需部署到其他路径，修改 `docker-compose.yml` 中的 build args 即可。

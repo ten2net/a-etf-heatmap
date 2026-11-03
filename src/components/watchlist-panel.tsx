@@ -1,5 +1,6 @@
 "use client";
 
+import { withBasePath } from "@/lib/base-path";
 import {
   useEffect,
   useId,
@@ -182,7 +183,7 @@ export function WatchlistManager({
       setSearching(true);
       setDropdownOpen(true);
       try {
-        const response = await fetch(`/api/heatmap/search?q=${encodeURIComponent(trimmedQuery)}`, {
+        const response = await fetch(`${withBasePath("/api/heatmap/search")}?q=${encodeURIComponent(trimmedQuery)}`, {
           signal: controller.signal,
         });
         if (!response.ok) {
@@ -222,7 +223,7 @@ export function WatchlistManager({
       codes: items.map((item) => item.code).join(","),
     });
 
-    void fetch(`/api/heatmap/quotes?${params.toString()}`, { signal: controller.signal })
+    void fetch(`${withBasePath("/api/heatmap/quotes")}?${params.toString()}`, { signal: controller.signal })
       .then(async (response) => {
         if (!response.ok) {
           throw new Error("quotes failed");

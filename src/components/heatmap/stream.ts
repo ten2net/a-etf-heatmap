@@ -1,5 +1,6 @@
 "use client";
 
+import { withBasePath } from "@/lib/base-path";
 import { useEffect, useState } from "react";
 
 import type { QuoteStreamEvent, ShareLogoRaster } from "./types";
@@ -166,7 +167,7 @@ export function canvasToBlob(canvas: HTMLCanvasElement) {
  * (`naturalWidth` 0 or empty draw). Fetch + Blob + createImageBitmap / decode() is reliable.
  */
 export async function loadShareLogoRaster(): Promise<ShareLogoRaster> {
-  const response = await fetch("/logo-share.svg", { cache: "force-cache" });
+  const response = await fetch(withBasePath("/logo-share.svg"), { cache: "force-cache" });
   if (!response.ok) {
     throw new Error(`Logo fetch failed: ${response.status}`);
   }

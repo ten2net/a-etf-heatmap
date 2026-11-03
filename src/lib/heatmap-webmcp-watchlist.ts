@@ -1,3 +1,4 @@
+import { withBasePath } from "@/lib/base-path";
 import { resolveStocksByCodes, searchStocks } from "@/lib/market-heatmap";
 import { watchlistMaxCount, type HeatmapPeriodKey } from "@/lib/market-heatmap";
 import {
@@ -50,7 +51,7 @@ async function loadWatchlistQuotes(context: HeatmapWebMcpContext, period: Heatma
   if (codes.length === 0) return { quotes: {}, updatedAt: "", source: null };
 
   try {
-    const response = await fetch(`/api/heatmap/quotes?period=${period}&codes=${encodeURIComponent(codes.join(","))}`);
+    const response = await fetch(`${withBasePath("/api/heatmap/quotes")}?period=${period}&codes=${encodeURIComponent(codes.join(","))}`);
     if (!response.ok) throw new Error(`Quote request failed with status ${response.status}.`);
     const payload = (await response.json()) as {
       updatedAt?: string;

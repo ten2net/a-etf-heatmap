@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { Toaster } from "sonner";
 
 import "./globals.css";
+import { withBasePath } from "@/lib/base-path";
 
 export const metadata: Metadata = {
   title: "A 股 ETF 热力图 | ETF 大盘云图",
@@ -13,8 +14,8 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   icons: {
-    icon: "/icon.svg",
-    shortcut: "/icon.svg",
+    icon: withBasePath("/icon.svg"),
+    shortcut: withBasePath("/icon.svg"),
   },
   openGraph: {
     title: "A 股 ETF 热力图 | ETF 大盘云图",

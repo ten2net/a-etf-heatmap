@@ -1,5 +1,6 @@
 "use client";
 
+import { withBasePath } from "@/lib/base-path";
 import {
   useCallback,
   useEffect,
@@ -839,7 +840,7 @@ export function MarketHeatmap({ locale: initialLocale }: { locale: Locale; messa
           period: nextPeriod,
           codes: codes.join(","),
         });
-        const response = await fetch(`/api/heatmap/treemap?${params.toString()}`);
+        const response = await fetch(`${withBasePath("/api/heatmap/treemap")}?${params.toString()}`);
         if (!response.ok) {
           if (response.status === 503) throw new Error(periodDataUnavailableCode);
           throw new Error(messages.errorLoad);
@@ -857,7 +858,7 @@ export function MarketHeatmap({ locale: initialLocale }: { locale: Locale; messa
         return;
       }
 
-      const response = await fetch(`/api/heatmap/treemap?market=${nextMarket}&period=${nextPeriod}`);
+      const response = await fetch(`${withBasePath("/api/heatmap/treemap")}?market=${nextMarket}&period=${nextPeriod}`);
       if (!response.ok) {
         if (response.status === 503) throw new Error(periodDataUnavailableCode);
         throw new Error(messages.errorLoad);
@@ -917,7 +918,7 @@ export function MarketHeatmap({ locale: initialLocale }: { locale: Locale; messa
       let completed = false;
 
       try {
-        const response = await fetch(`/api/heatmap/quotes/stream?${params.toString()}`, {
+        const response = await fetch(`${withBasePath("/api/heatmap/quotes/stream")}?${params.toString()}`, {
           signal: controller.signal,
           cache: "no-store",
         });
@@ -999,7 +1000,7 @@ export function MarketHeatmap({ locale: initialLocale }: { locale: Locale; messa
     marketSummaryControllerRef.current?.abort();
     const controller = new AbortController();
     marketSummaryControllerRef.current = controller;
-    const response = await fetch(`/api/heatmap/overview?period=${nextPeriod}`, {
+    const response = await fetch(`${withBasePath("/api/heatmap/overview")}?period=${nextPeriod}`, {
       signal: controller.signal,
     });
     if (!response.ok) {
@@ -3491,6 +3492,7 @@ export function MarketHeatmap({ locale: initialLocale }: { locale: Locale; messa
             >
               <div className={cn("flex items-center justify-between gap-2 border-b border-border px-2 py-1.5 sm:px-2.5", isEnglish && "py-1")}>
                 <div className="flex min-w-0 items-center gap-2">
+                  <img src={withBasePath("/icon.svg")} alt="" className="size-7 shrink-0" decoding="async" />
                   <h2
                     className={cn(
                       "min-w-0 truncate whitespace-nowrap font-semibold leading-tight tracking-[0.01em]",

@@ -1,3 +1,4 @@
+import { withBasePath } from "@/lib/base-path";
 import { createOpenAICompatible } from "@ai-sdk/openai-compatible";
 import { APICallError, generateObject, NoObjectGeneratedError } from "ai";
 import { z } from "zod";
@@ -285,7 +286,7 @@ type SearchApiItem = {
 };
 
 async function searchStock(query: string): Promise<SearchApiItem | null> {
-  const response = await fetch(`/api/heatmap/search?q=${encodeURIComponent(query)}&limit=5`);
+  const response = await fetch(`${withBasePath("/api/heatmap/search")}?q=${encodeURIComponent(query)}&limit=5`);
   if (!response.ok) {
     return null;
   }
