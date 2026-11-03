@@ -1,0 +1,45 @@
+{
+  "name": "a-etf-heatmap",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.27.1",
+  "description": "A 股 ETF 热力图：用一张可交互的市场云图观察沪深两市全部场内 ETF 的涨跌与资金分布。",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "refresh:catalog": "node scripts/refresh-etf-catalog.mjs",
+    "check:catalog": "node scripts/refresh-etf-catalog.mjs --check",
+    "refresh:data": "node scripts/refresh-etf-catalog.mjs",
+    "check:data": "node scripts/refresh-etf-catalog.mjs --check"
+  },
+  "dependencies": {
+    "@ai-sdk/openai-compatible": "^3.0.31",
+    "@radix-ui/react-tooltip": "^1.4.1",
+    "@vercel/analytics": "^2.0.1",
+    "ai": "^7.0.68",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.8.0",
+    "next": "16.3.3",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "sonner": "^2.0.7",
+    "tailwind-merge": "^3.5.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.3",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^5.0.1"
+  }
+}
