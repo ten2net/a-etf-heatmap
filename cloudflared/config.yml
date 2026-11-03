@@ -1,0 +1,8 @@
+# Cloudflare Tunnel 配置：etf.luckybrother.cc → 本 compose 的 edge 服务
+# 本地管理（非 dashboard 远端管理），凭据文件挂载自 ~/.cloudflared/，勿提交到仓库
+tunnel: 73532928-a0f6-4d30-90fb-72b7161ae6b7
+credentials-file: /etc/cloudflared/creds.json
+ingress:
+  - hostname: etf.luckybrother.cc
+    service: http://edge:80
+  - service: http_status:404
