@@ -3957,6 +3957,39 @@ export function MarketHeatmap({ locale: initialLocale }: { locale: Locale; messa
               onDoubleClick={onDoubleClick}
             />
 
+            <div
+              aria-label={messages.legendTitle}
+              className={cn(
+                "pointer-events-none absolute bottom-3 left-3 z-20 rounded-md border px-2 py-1.5 shadow-lg backdrop-blur-sm",
+                isLightMode
+                  ? "border-slate-200/80 bg-white/85 text-slate-600"
+                  : "border-slate-700/70 bg-[#0f1319]/80 text-slate-300"
+              )}
+            >
+              <p className={cn("text-[9px] leading-none tracking-wide", isLightMode ? "text-slate-500" : "text-slate-400")}>
+                {messages.legendTitle}
+              </p>
+              <div className="mt-1 flex items-center gap-1.5">
+                <span className="text-[10px] font-medium leading-none" style={{ color: fallTextColor }}>
+                  {messages.legendFall}
+                </span>
+                <div className="relative w-24 sm:w-28">
+                  <div
+                    className="h-2 w-full rounded-full shadow-[inset_0_0_0_1px_rgba(255,255,255,0.06)]"
+                    style={{ background: legendGradient }}
+                  />
+                  <div className="pointer-events-none absolute inset-x-0 top-2.5 flex items-center justify-between text-[8px] font-semibold tabular-nums leading-none text-muted-foreground">
+                    {legendTicks.map((tick) => (
+                      <span key={tick}>{tick === 0 ? "0" : formatCompactChange(tick)}</span>
+                    ))}
+                  </div>
+                </div>
+                <span className="text-[10px] font-medium leading-none" style={{ color: riseTextColor }}>
+                  {messages.legendRise}
+                </span>
+              </div>
+            </div>
+
             {inspectorStyle && (
               <aside
                 className={cn(
