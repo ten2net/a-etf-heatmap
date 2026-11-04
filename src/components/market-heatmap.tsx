@@ -4176,61 +4176,79 @@ export function MarketHeatmap({ locale: initialLocale }: { locale: Locale; messa
                         className="overflow-y-auto"
                         style={{ maxHeight: Math.max(140, inspectorStyle.maxHeight - 320) }}
                       >
-                          {etfConstituentsView ? (
-                            <div>
-                              {etfConstituentsView.loading && (
-                                <p className="flex items-center gap-2 px-3 py-3 text-[12px] text-muted-foreground">
-                                  <Loader2 className="size-3.5 animate-spin" aria-hidden />
-                                  {messages.constituentsLoading}
-                                </p>
-                              )}
-                              {etfConstituentsView.error && (
-                                <p className="px-3 py-3 text-[12px] leading-5 text-muted-foreground">
-                                  {messages.constituentsError}
-                                </p>
-                              )}
-                              {etfConstituentsView.stocks && etfConstituentsView.stocks.length > 0 && (
-                                <div>
-                                  <div
-                                    className={cn(
-                                      "sticky top-0 z-10 grid grid-cols-[minmax(0,1fr)_48px_80px] items-center gap-2 border-b px-3 py-1 text-[10px] font-medium tracking-[0.05em] text-slate-500",
-                                      isLightMode ? "border-slate-300/70 bg-[#f4f6f7]" : "border-white/10 bg-[#0c1015]"
-                                    )}
-                                  >
-                                    <span>
-                                      {messages.constituentsTitle} · {etfConstituentsView.stocks.length}
-                                    </span>
-                                    <span className="text-right">{messages.constituentsWeight}</span>
-                                    <span>{messages.constituentsNetValue}</span>
-                                  </div>
-                                  {etfConstituentsView.stocks.map((item) => (
-                                    <div
-                                      key={item.code}
-                                      className={cn(
-                                        "grid grid-cols-[minmax(0,1fr)_48px_80px] items-center gap-2 border-b px-3 py-1.5 text-[12.5px]",
-                                        isLightMode ? "border-b-slate-300/70 bg-[#f4f6f7]" : "border-b-white/10 bg-[#0c1015]"
-                                      )}
-                                    >
-                                      <div className="min-w-0">
-                                        <p className="truncate font-medium leading-[1.2] [word-break:keep-all]">{item.name}</p>
-                                        <p className="text-[10px] leading-tight text-slate-500">{item.code}</p>
-                                      </div>
-                                      <span className="text-right text-[11px] font-semibold tabular-nums text-foreground">
-                                        {item.weight.toFixed(2)}%
-                                      </span>
-                                      <div className="h-1.5 w-full overflow-hidden rounded-full bg-slate-300/40">
-                                        <div
-                                          className="h-full rounded-full bg-slate-500/70"
-                                          style={{ width: Math.min(100, (item.weight / etfConstituentsView.maxWeight) * 100) + "%" }}
-                                        />
-                                      </div>
-                                    </div>
-                                  ))}
-                                </div>
-                              )}
-                            </div>
-                          ) : (
-                        inspectorStocks.map((stock) => {
+                        {etfConstituentsView ? (
+                        <div>
+                        {etfConstituentsView.loading && (
+                        <p className="flex items-center gap-2 px-3 py-3 text-[12px] text-muted-foreground">
+                        <Loader2 className="size-3.5 animate-spin" aria-hidden />
+                        {messages.constituentsLoading}
+                        </p>
+                        )}
+                        {etfConstituentsView.error && (
+                        <p className="px-3 py-3 text-[12px] leading-5 text-muted-foreground">
+                        {messages.constituentsError}
+                        </p>
+                        )}
+                        {etfConstituentsView.stocks && etfConstituentsView.stocks.length > 0 && (
+                        <div>
+                        <div
+                        className={cn(
+                        "sticky top-0 z-10 grid grid-cols-[minmax(0,1fr)_56px_52px_56px_44px] items-center gap-2 border-b px-3 py-1 text-[10px] font-medium tracking-[0.05em] text-slate-500",
+                        isLightMode ? "border-slate-300/70 bg-[#f4f6f7]" : "border-white/10 bg-[#0c1015]"
+                        )}
+                        >
+                        <span>
+                        {messages.constituentsTitle} · {etfConstituentsView.stocks.length}
+                        </span>
+                        <span />
+                        <span className="text-right">{messages.priceLabel}</span>
+                        <span className="text-right">{messages.changeLabel}</span>
+                        <span className="text-right">{messages.constituentsWeight}</span>
+                        </div>
+                        {etfConstituentsView.stocks.map((item) => (
+                        <div
+                        key={item.code}
+                        className={cn(
+                        "grid grid-cols-[minmax(0,1fr)_56px_52px_56px_44px] items-center gap-2 border-b px-3 py-1 text-[12px]",
+                        isLightMode ? "border-b-slate-300/70 bg-[#f4f6f7]" : "border-b-white/10 bg-[#0c1015]"
+                        )}
+                        >
+                        <div className="min-w-0">
+                        <p className="truncate font-medium leading-[1.2] [word-break:keep-all]">{item.name}</p>
+                        <p className="text-[10px] leading-tight text-slate-500">{item.code}</p>
+                        </div>
+                        <img
+                        src={getSparklineUrl(item.code)}
+                        alt=""
+                        className="h-5 w-full object-contain"
+                        loading="lazy"
+                        decoding="async"
+                        referrerPolicy="no-referrer"
+                        />
+                        <span className="text-right text-[11px] tabular-nums text-foreground">
+                        {item.price ? formatPrice(item.price) : "--"}
+                        </span>
+                        <span
+                        className="text-right text-[11px] font-semibold tabular-nums"
+                        style={{
+                        color:
+                        item.changePct !== undefined
+                        ? getChangeTextColor(activeHeatTheme, item.changePct, priceColorMode, displayMode)
+                        : undefined,
+                        }}
+                        >
+                        {item.changePct !== undefined ? formatChange(item.changePct) : "--"}
+                        </span>
+                        <span className="text-right text-[10px] tabular-nums text-slate-500">
+                        {item.weight.toFixed(2)}%
+                        </span>
+                        </div>
+                        ))}
+                        </div>
+                        )}
+                        </div>
+                        ) :
+                        (inspectorStocks.map((stock) => {
                           const isActive = stock.active;
                           const isWatchlisted = watchlistCodeSet.has(stock.code);
 
@@ -4304,7 +4322,7 @@ export function MarketHeatmap({ locale: initialLocale }: { locale: Locale; messa
                             </div>
                           );
                         })
-                          )}
+                        )}
                       </div>
                     </div>
                   </>

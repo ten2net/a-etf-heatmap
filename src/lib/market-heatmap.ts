@@ -1051,11 +1051,13 @@ export async function getMarketOverviewData(
 }
 
 export type EtfConstituentStock = {
-  /** A 股股票代码，6 位数字（无交易所后缀） */
+  /** A 股股票代码（带交易所后缀，如 600519.SH） */
   code: string;
   name: string;
   /** 占基金净值比（%） */
   weight: number;
+  price?: number;
+  changePct?: number;
 };
 
 export type EtfConstituentsResponse = {
@@ -1117,7 +1119,7 @@ export async function getEtfConstituentsData(code: string): Promise<EtfConstitue
     }
 
     const payload = (await response.json()) as {
-      Datas?: { fundStocks?: Array<{ GPDM?: string; GPJC?: string; JZBL?: string | number }> };
+      Datas?: { fundStocks?: Array<{ GPDM?: string; GPJC?: string; JZBL?: string | number; TEXCH?: string }> };
       Expansion?: string;
     };
 
@@ -1127,9 +1129,42 @@ export async function getEtfConstituentsData(code: string): Promise<EtfConstitue
         code: String(item.GPDM ?? "").trim(),
         name: String(item.GPJC ?? "").trim(),
         weight: Number(item.JZBL ?? 0),
+        exchange: String(item.TEXCH ?? "").trim(),
       }))
       .filter((item) => /^\d{6}$/.test(item.code) && item.name && Number.isFinite(item.weight))
+      .map((item): { code: string; name: string; weight: number; exchange: string; price?: number; changePct?: number } => ({
+        ...item,
+        // TEXCH：1=沪 2=深；缺失时按代码段兜底（6/9/5 开头沪市，其余深市）。
+        code:
+          item.exchange === "1" || item.exchange === "2"
+            ? item.exchange === "1"
+              ? item.code + ".SH"
+              : item.code + ".SZ"
+            : /^[695]/.test(item.code)
+              ? item.code + ".SH"
+              : item.code + ".SZ",
+      }))
       .sort((left, right) => right.weight - left.weight);
+
+    // 批量拉取成分股现价与涨跌幅（腾讯行情，与主行情同源）。
+    const symbols = stocks
+      .map((item) => toTencentSymbol(item.code))
+      .filter((symbol): symbol is string => symbol !== null);
+    if (symbols.length > 0) {
+      try {
+        const quoteText = await fetchTencentQuoteBatch(symbols);
+        const stockQuotes = parseTencentQuoteBatch(quoteText).quotes;
+        for (const item of stocks) {
+          const quote = stockQuotes[item.code];
+          if (quote) {
+            item.price = quote.price;
+            item.changePct = quote.changes.day ?? undefined;
+          }
+        }
+      } catch {
+        // 行情失败不影响成分股列表展示（价格列显示 --）。
+      }
+    }
 
     if (stocks.length === 0) {
       throw new Error(`ETF constituents are empty: ${normalized}`);
