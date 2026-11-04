@@ -23,21 +23,6 @@ export const marketKeys = [
   "money",
   "sse",
   "szse",
-  "sz50",
-  "hs300",
-  "zz500",
-  "zz1000",
-  "cyb",
-  "kcb",
-  "tech",
-  "finance",
-  "consumer",
-  "health",
-  "energy",
-  "materials",
-  "industry",
-  "hk",
-  "us",
 ] as const;
 
 export type MarketKey = (typeof marketKeys)[number];
@@ -591,10 +576,6 @@ async function getQuoteSnapshot(): Promise<QuoteSnapshot> {
 /* 市场筛选                                                                     */
 /* -------------------------------------------------------------------------- */
 
-const themeSubBoardAliases: Partial<Record<MarketKey, string>> = {
-  materials: "资源",
-};
-
 function matchesMarket(etf: EtfSnapshot, market: MarketKey): boolean {
   switch (market) {
     case "all":
@@ -613,8 +594,7 @@ function matchesMarket(etf: EtfSnapshot, market: MarketKey): boolean {
     case "szse":
       return etf.exchange === "SZ";
     default:
-      // 主题市场（sz50/hs300/tech 等）：按细分板块名匹配。
-      return etf.subBoardName === (themeSubBoardAliases[market] ?? market);
+      return false;
   }
 }
 

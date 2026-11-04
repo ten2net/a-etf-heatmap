@@ -131,14 +131,14 @@ describe("代码与外部链接", () => {
 describe("文案映射", () => {
   it("getMarketLabel 使用当前语言文案", () => {
     expect(getMarketLabel(messages, "all")).toBe(messages.markets.all);
-    expect(getMarketLabel(messages, "hs300")).toBe(messages.markets.hs300);
+    expect(getMarketLabel(messages, "equity")).toBe(messages.markets.equity);
     expect(getMarketLabel(messages, "watchlist")).toBe(messages.markets.watchlist);
   });
 
   it("getCompactMarketLabel 英文使用紧凑文案", () => {
     expect(getCompactMarketLabel(messages, "all", "en")).toBe("All ETFs");
-    expect(getCompactMarketLabel(messages, "hs300", "en")).toBe("CSI 300");
-    expect(getCompactMarketLabel(messages, "hs300", "zh")).toBe(messages.markets.hs300);
+    expect(getCompactMarketLabel(messages, "equity", "en")).toBe("Equity");
+    expect(getCompactMarketLabel(messages, "broad", "zh")).toBe(messages.markets.broad);
   });
 
   it("getPeriodLabel 与 getCompactPeriodLabel", () => {

@@ -201,7 +201,6 @@ export function getMarketLabel(messages: HeatmapMessages, market: HeatmapUnivers
   if (market === "all") return messages.markets.all;
   if (market === "sse") return messages.markets.sse;
   if (market === "szse") return messages.markets.szse;
-  if (market === "hs300") return messages.markets.hs300;
   const label = messages.markets[market as keyof typeof messages.markets];
   return typeof label === "string" ? label : messages.markets.all;
 }
@@ -212,7 +211,6 @@ export function getCompactMarketLabel(messages: HeatmapMessages, market: Heatmap
     if (market === "all") return "All ETFs";
     if (market === "sse") return "SH ETF";
     if (market === "szse") return "SZ ETF";
-    if (market === "hs300") return "CSI 300";
     if (market === "broad") return "Broad";
     if (market === "hangye") return "Sector";
     if (market === "crossborder") return "Cross-border";
@@ -220,20 +218,7 @@ export function getCompactMarketLabel(messages: HeatmapMessages, market: Heatmap
     if (market === "bond") return "Bond";
     if (market === "money") return "Money";
     if (market === "equity") return "Equity";
-    if (market === "hk") return "HK";
-    if (market === "us") return "US";
-    if (market === "tech") return "Tech";
-    if (market === "finance") return "Financials";
-    if (market === "consumer") return "Consumer";
-    if (market === "health") return "Healthcare";
-    if (market === "energy") return "Energy";
-    if (market === "materials") return "Materials";
-    if (market === "industry") return "Industrial";
-    if (market === "sz50") return "SSE 50";
-    if (market === "zz500") return "CSI 500";
-    if (market === "zz1000") return "CSI 1000";
-    if (market === "cyb") return "ChiNext";
-    return "STAR";
+    return "ETF";
   }
 
   return getMarketLabel(messages, market);

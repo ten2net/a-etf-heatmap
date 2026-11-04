@@ -21,9 +21,12 @@ RUN pnpm build
 
 FROM node:22-alpine AS runner
 WORKDIR /app
+# alpine 镜像不含 tzdata，显式安装以支持 TZ 设置
+RUN apk add --no-cache tzdata
 ENV NODE_ENV=production
 ENV PORT=3000
 ENV HOSTNAME=0.0.0.0
+ENV TZ=Asia/Shanghai
 # 行情批量拉取会占用堆内存，显式限制 V8 堆上限
 ENV NODE_OPTIONS="--max-old-space-size=1024"
 RUN addgroup -S nodejs && adduser -S nextjs -G nodejs

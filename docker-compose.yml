@@ -1,7 +1,7 @@
 # A 股 ETF 热力图：挂在 /etf 上下文路径下启动
 # 访问入口：
 #   - http://<主机IP>:8090/etf
-#   - https://etf.luckybrother.cc（Cloudflare Tunnel，根路径 308 到 /etf）
+#   - https://etf.luckybrother.cc（Cloudflare Tunnel，根路径直出首页）
 services:
   web:
     build:
@@ -15,6 +15,7 @@ services:
     mem_limit: 1g
     environment:
       NODE_OPTIONS: "--max-old-space-size=1024"
+      TZ: Asia/Shanghai
     healthcheck:
       test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/etf/api/health"]
       interval: 30s
@@ -37,6 +38,8 @@ services:
   cloudflared:
     image: cloudflare/cloudflared:2026.9.1
     command: tunnel --config /etc/cloudflared/config.yml run
+    environment:
+      TZ: Asia/Shanghai
     volumes:
       - ./cloudflared/config.yml:/etc/cloudflared/config.yml:ro
       - /root/.cloudflared/73532928-a0f6-4d30-90fb-72b7161ae6b7.json:/etc/cloudflared/creds.json:ro
