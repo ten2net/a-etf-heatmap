@@ -131,13 +131,13 @@ describe("代码与外部链接", () => {
 describe("文案映射", () => {
   it("getMarketLabel 使用当前语言文案", () => {
     expect(getMarketLabel(messages, "all")).toBe(messages.markets.all);
-    expect(getMarketLabel(messages, "equity")).toBe(messages.markets.equity);
+    expect(getMarketLabel(messages, "broad")).toBe(messages.markets.broad);
     expect(getMarketLabel(messages, "watchlist")).toBe(messages.markets.watchlist);
   });
 
   it("getCompactMarketLabel 英文使用紧凑文案", () => {
     expect(getCompactMarketLabel(messages, "all", "en")).toBe("All ETFs");
-    expect(getCompactMarketLabel(messages, "equity", "en")).toBe("Equity");
+    expect(getCompactMarketLabel(messages, "hangye", "en")).toBe("Sector");
     expect(getCompactMarketLabel(messages, "broad", "zh")).toBe(messages.markets.broad);
   });
 

@@ -215,9 +215,6 @@ export function getCompactMarketLabel(messages: HeatmapMessages, market: Heatmap
     if (market === "hangye") return "Sector";
     if (market === "crossborder") return "Cross-border";
     if (market === "commodity") return "Commodity";
-    if (market === "bond") return "Bond";
-    if (market === "money") return "Money";
-    if (market === "equity") return "Equity";
     return "ETF";
   }
 

@@ -14,13 +14,10 @@ export type EtfFamilyKey = (typeof etfFamilyKeys)[number];
 
 export const marketKeys = [
   "all",
-  "equity",
   "broad",
   "hangye",
   "crossborder",
   "commodity",
-  "bond",
-  "money",
   "sse",
   "szse",
 ] as const;
@@ -256,7 +253,8 @@ function toEtfSnapshot(item: EtfCatalogItem): EtfSnapshot {
   };
 }
 
-export const baselineEtfs: EtfSnapshot[] = etfCatalog.map(toEtfSnapshot);
+// 剔除债券与货币 ETF：不属于权益市场观察范围，且货币基金动辄数百亿成交额会挤压画面。
+export const baselineEtfs: EtfSnapshot[] = etfCatalog  .filter((item) => item.family !== "bond" && item.family !== "money")  .map(toEtfSnapshot);
 
 const baselineEtfByCode = new Map(baselineEtfs.map((etf) => [etf.code, etf]));
 
@@ -268,7 +266,7 @@ export function searchEtfs(query: string, limit = 12): EtfSearchItem[] {
 
   const scored: Array<{ item: EtfCatalogItem; score: number }> = [];
 
-  for (const item of etfCatalog) {
+  for (const item of baselineEtfs) {
     const name = item.name.toLowerCase();
     const code = item.code.toLowerCase();
     let score = -1;
@@ -580,14 +578,10 @@ function matchesMarket(etf: EtfSnapshot, market: MarketKey): boolean {
   switch (market) {
     case "all":
       return true;
-    case "equity":
-      return etf.family !== "bond" && etf.family !== "money";
     case "broad":
     case "hangye":
     case "crossborder":
     case "commodity":
-    case "bond":
-    case "money":
       return etf.family === market;
     case "sse":
       return etf.exchange === "SH";

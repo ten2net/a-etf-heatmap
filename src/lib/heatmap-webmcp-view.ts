@@ -16,13 +16,10 @@ import {
 
 const marketLabels: Record<HeatmapUniverse, { nameZh: string; nameEn: string }> = {
   all: { nameZh: "全部 ETF", nameEn: "All ETFs" },
-  equity: { nameZh: "权益 ETF", nameEn: "Equity ETFs" },
   broad: { nameZh: "宽基 ETF", nameEn: "Broad-based ETFs" },
   hangye: { nameZh: "行业主题 ETF", nameEn: "Sector & theme ETFs" },
   crossborder: { nameZh: "跨境 ETF", nameEn: "Cross-border ETFs" },
   commodity: { nameZh: "商品 ETF", nameEn: "Commodity ETFs" },
-  bond: { nameZh: "债券 ETF", nameEn: "Bond ETFs" },
-  money: { nameZh: "货币 ETF", nameEn: "Money ETFs" },
   sse: { nameZh: "沪市 ETF", nameEn: "Shanghai ETFs" },
   szse: { nameZh: "深市 ETF", nameEn: "Shenzhen ETFs" },
   watchlist: { nameZh: "自选股", nameEn: "Watchlist" },
