@@ -257,6 +257,7 @@ function toEtfSnapshot(item: EtfCatalogItem): EtfSnapshot {
 export const baselineEtfs: EtfSnapshot[] = etfCatalog  .filter((item) => item.family !== "bond" && item.family !== "money")  .map(toEtfSnapshot);
 
 const baselineEtfByCode = new Map(baselineEtfs.map((etf) => [etf.code, etf]));
+const etfCatalogByCode = new Map(etfCatalog.map((item) => [item.code, item]));
 
 export function searchEtfs(query: string, limit = 12): EtfSearchItem[] {
   const keyword = query.trim().toLowerCase();
@@ -1047,6 +1048,110 @@ export async function getMarketOverviewData(
     markets,
     source: "direct",
   };
+}
+
+export type EtfConstituentStock = {
+  /** A 股股票代码，6 位数字（无交易所后缀） */
+  code: string;
+  name: string;
+  /** 占基金净值比（%） */
+  weight: number;
+};
+
+export type EtfConstituentsResponse = {
+  /** ETF 代码（带后缀，如 510300.SH） */
+  code: string;
+  name: string;
+  updatedAt: string;
+  /** 按占净值比降序 */
+  stocks: EtfConstituentStock[];
+};
+
+// 东财基金移动端接口：返回该基金披露的前十大重仓股（季度更新）。
+const etfConstituentsUrl = "https://fundmobapi.eastmoney.com/FundMNewApi/FundMNInverstPosition";
+const etfConstituentsCacheMs = 30 * 60_000;
+
+type EtfConstituentsCacheEntry = {
+  fetchedAt: number;
+  data: EtfConstituentsResponse;
+};
+
+const etfConstituentsCache = new Map<string, EtfConstituentsCacheEntry>();
+const etfConstituentsPending = new Map<string, Promise<EtfConstituentsResponse>>();
+
+export async function getEtfConstituentsData(code: string): Promise<EtfConstituentsResponse> {
+  const normalized = code.trim().toUpperCase();
+  if (!/^\d{6}\.(SH|SZ)$/.test(normalized)) {
+    throw new Error(`Invalid ETF code: ${code}`);
+  }
+
+  const cached = etfConstituentsCache.get(normalized);
+  if (cached && Date.now() - cached.fetchedAt < etfConstituentsCacheMs) {
+    return cached.data;
+  }
+
+  const pending = etfConstituentsPending.get(normalized);
+  if (pending) {
+    return pending;
+  }
+
+  const request = (async () => {
+    const fundCode = normalized.slice(0, 6);
+    const params = new URLSearchParams({
+      FCODE: fundCode,
+      deviceid: "Wap",
+      plat: "Wap",
+      product: "EFund",
+      version: "6.2.8",
+    });
+
+    const response = await fetch(`${etfConstituentsUrl}?${params.toString()}`, {
+      headers: { "User-Agent": "Mozilla/5.0 (compatible; AEtfHeatmap/1.0)" },
+      next: { revalidate: 0 },
+      cache: "no-store",
+      signal: AbortSignal.timeout(10_000),
+    });
+
+    if (!response.ok) {
+      throw new Error(`ETF constituents request failed: ${response.status}`);
+    }
+
+    const payload = (await response.json()) as {
+      Datas?: { fundStocks?: Array<{ GPDM?: string; GPJC?: string; JZBL?: string | number }> };
+      Expansion?: string;
+    };
+
+    const raw = payload.Datas?.fundStocks ?? [];
+    const stocks = raw
+      .map((item) => ({
+        code: String(item.GPDM ?? "").trim(),
+        name: String(item.GPJC ?? "").trim(),
+        weight: Number(item.JZBL ?? 0),
+      }))
+      .filter((item) => /^\d{6}$/.test(item.code) && item.name && Number.isFinite(item.weight))
+      .sort((left, right) => right.weight - left.weight);
+
+    if (stocks.length === 0) {
+      throw new Error(`ETF constituents are empty: ${normalized}`);
+    }
+
+    const data: EtfConstituentsResponse = {
+      code: normalized,
+      name: etfCatalogByCode.get(normalized)?.name ?? normalized,
+      updatedAt: new Date().toISOString(),
+      stocks,
+    };
+
+    etfConstituentsCache.set(normalized, { fetchedAt: Date.now(), data });
+    return data;
+  })();
+
+  etfConstituentsPending.set(normalized, request);
+  try {
+    return await request;
+  } finally {
+    etfConstituentsPending.delete(normalized);
+  }
 }
 
 export function searchStocks(query: string, limit?: number): EtfSearchItem[] {

@@ -1,6 +1,5 @@
 "use client";
 
-import { withBasePath } from "@/lib/base-path";
 import {
   useCallback,
   useEffect,
@@ -74,6 +73,7 @@ import {
   type MarketDataSource,
   type MarketKey,
   type MarketOverviewResponse,
+  type EtfConstituentsResponse,
   type TreemapResponse,
 } from "@/lib/market-heatmap";
 import {
@@ -87,6 +87,7 @@ import { useHeatmapWebMcp } from "@/hooks/use-heatmap-webmcp";
 import { GitHubMark } from "@/components/heatmap/github-mark";
 import { InspectorHeaderSparkline, InspectorSortControls } from "@/components/heatmap/inspector-parts";
 import { MobileStockSheet } from "@/components/heatmap/mobile-stock-sheet";
+import { withBasePath } from "@/lib/base-path";
 import { HeatmapLoadingOverlay } from "@/components/heatmap/loading-overlay";
 import { FilterPanel, FilterPopover } from "@/components/heatmap/filter-panel";
 import { getCanvasViewportBounds, intersectsBounds } from "@/components/heatmap/canvas-viewport";
@@ -269,6 +270,9 @@ export function MarketHeatmap({ locale: initialLocale }: { locale: Locale; messa
   const heatmapBorders = heatmapBordersUrlOverride ?? heatmapBordersPreference;
   const [refreshIntervalSeconds, setRefreshIntervalSeconds] = useState(defaultRefreshIntervalSeconds);
   const [marketSummaries, setMarketSummaries] = useState<Partial<Record<MarketKey, MarketSummary>>>({});
+  // 悬停单个 ETF 时异步加载的成分股（inspector 中替换 ETF 列表展示）
+  const [etfConstituents, setEtfConstituents] = useState<{ code: string; loading: boolean; stocks?: EtfConstituentsResponse["stocks"]; error?: string } | null>(null);
+  const etfConstituentsAbortRef = useRef<AbortController | null>(null);
   const [treemapData, setTreemapData] = useState<TreemapResponse | null>(null);
   const [quotes, setQuotes] = useState<QuoteMap>({});
   const [settledQuotes, setSettledQuotes] = useState<QuoteMap>({});
@@ -1822,6 +1826,42 @@ export function MarketHeatmap({ locale: initialLocale }: { locale: Locale; messa
 
     return layout.stockRects.find((stock) => stock.boardName === activeBoardName) ?? null;
   }, [activeBoardName, activeStock, layout.stockRects]);
+  // 悬停单个 ETF 时拉取其成分股（前十大重仓，季度披露）
+  useEffect(() => {
+    const etfCode = highlightedStock?.code;
+    if (!etfCode) {
+      etfConstituentsAbortRef.current?.abort();
+      etfConstituentsAbortRef.current = null;
+      setEtfConstituents(null);
+      return;
+    }
+    if (etfConstituents && etfConstituents.code === etfCode) {
+      return;
+    }
+    const controller = new AbortController();
+    etfConstituentsAbortRef.current?.abort();
+    etfConstituentsAbortRef.current = controller;
+    setEtfConstituents({ code: etfCode, loading: true });
+    fetch(withBasePath("/api/heatmap/constituents?code=") + encodeURIComponent(etfCode), {
+      signal: controller.signal,
+    })
+      .then(async (response) => {
+        if (!response.ok) {
+          throw new Error(String(response.status));
+        }
+        return (await response.json()) as EtfConstituentsResponse;
+      })
+      .then((data) => {
+        if (!controller.signal.aborted) {
+          setEtfConstituents({ code: etfCode, loading: false, stocks: data.stocks });
+        }
+      })
+      .catch(() => {
+        if (!controller.signal.aborted) {
+          setEtfConstituents({ code: etfCode, loading: false, error: messages.errorLoad });
+        }
+      });
+  }, [highlightedStock, etfConstituents, messages.errorLoad]);
 
   const activeBoardRect = useMemo(() => {
     if (!activeBoardName) {
@@ -1910,6 +1950,13 @@ export function MarketHeatmap({ locale: initialLocale }: { locale: Locale; messa
   }, [activeBoardStocks, highlightedStock, quotes]);
 
   const activeInspectorStock = inspectorStocks[0] ?? null;
+  const etfConstituentsView = useMemo(() => {
+    if (!activeInspectorStock || !etfConstituents || etfConstituents.code !== activeInspectorStock.code) {
+      return null;
+    }
+    const maxWeight = Math.max(...(etfConstituents.stocks ?? []).map((item) => item.weight), 0.01);
+    return { ...etfConstituents, maxWeight };
+  }, [activeInspectorStock, etfConstituents]);
   const activeInspectorTitle = useMemo(() => {
     if (!activeBoardName) {
       return activeBoardName;
@@ -3492,7 +3539,6 @@ export function MarketHeatmap({ locale: initialLocale }: { locale: Locale; messa
             >
               <div className={cn("flex items-center justify-between gap-2 border-b border-border px-2 py-1.5 sm:px-2.5", isEnglish && "py-1")}>
                 <div className="flex min-w-0 items-center gap-2">
-                  <img src={withBasePath("/icon.svg")} alt="" className="size-7 shrink-0" decoding="async" />
                   <h2
                     className={cn(
                       "min-w-0 truncate whitespace-nowrap font-semibold leading-tight tracking-[0.01em]",
@@ -4108,6 +4154,11 @@ export function MarketHeatmap({ locale: initialLocale }: { locale: Locale; messa
                             </div>
                           )}
                         </div>
+                        {etfConstituentsView ? (
+                          <span className="text-[10px] font-medium tracking-[0.03em] text-slate-400">
+                            {messages.constituentsTitle}
+                          </span>
+                        ) : (
                         <InspectorSortControls
                           sortKey={inspectorSortKey}
                           messages={messages}
@@ -4118,13 +4169,68 @@ export function MarketHeatmap({ locale: initialLocale }: { locale: Locale; messa
                           )} ${messages.inspectorWatchlistHint}`}
                           onChange={setInspectorSortKey}
                         />
+                        )}
                       </div>
                       <div
                         ref={inspectorListRef}
                         className="overflow-y-auto"
                         style={{ maxHeight: Math.max(140, inspectorStyle.maxHeight - 320) }}
                       >
-                        {inspectorStocks.map((stock) => {
+                          {etfConstituentsView ? (
+                            <div>
+                              {etfConstituentsView.loading && (
+                                <p className="flex items-center gap-2 px-3 py-3 text-[12px] text-muted-foreground">
+                                  <Loader2 className="size-3.5 animate-spin" aria-hidden />
+                                  {messages.constituentsLoading}
+                                </p>
+                              )}
+                              {etfConstituentsView.error && (
+                                <p className="px-3 py-3 text-[12px] leading-5 text-muted-foreground">
+                                  {messages.constituentsError}
+                                </p>
+                              )}
+                              {etfConstituentsView.stocks && etfConstituentsView.stocks.length > 0 && (
+                                <div>
+                                  <div
+                                    className={cn(
+                                      "sticky top-0 z-10 grid grid-cols-[minmax(0,1fr)_48px_80px] items-center gap-2 border-b px-3 py-1 text-[10px] font-medium tracking-[0.05em] text-slate-500",
+                                      isLightMode ? "border-slate-300/70 bg-[#f4f6f7]" : "border-white/10 bg-[#0c1015]"
+                                    )}
+                                  >
+                                    <span>
+                                      {messages.constituentsTitle} · {etfConstituentsView.stocks.length}
+                                    </span>
+                                    <span className="text-right">{messages.constituentsWeight}</span>
+                                    <span>{messages.constituentsNetValue}</span>
+                                  </div>
+                                  {etfConstituentsView.stocks.map((item) => (
+                                    <div
+                                      key={item.code}
+                                      className={cn(
+                                        "grid grid-cols-[minmax(0,1fr)_48px_80px] items-center gap-2 border-b px-3 py-1.5 text-[12.5px]",
+                                        isLightMode ? "border-b-slate-300/70 bg-[#f4f6f7]" : "border-b-white/10 bg-[#0c1015]"
+                                      )}
+                                    >
+                                      <div className="min-w-0">
+                                        <p className="truncate font-medium leading-[1.2] [word-break:keep-all]">{item.name}</p>
+                                        <p className="text-[10px] leading-tight text-slate-500">{item.code}</p>
+                                      </div>
+                                      <span className="text-right text-[11px] font-semibold tabular-nums text-foreground">
+                                        {item.weight.toFixed(2)}%
+                                      </span>
+                                      <div className="h-1.5 w-full overflow-hidden rounded-full bg-slate-300/40">
+                                        <div
+                                          className="h-full rounded-full bg-slate-500/70"
+                                          style={{ width: Math.min(100, (item.weight / etfConstituentsView.maxWeight) * 100) + "%" }}
+                                        />
+                                      </div>
+                                    </div>
+                                  ))}
+                                </div>
+                              )}
+                            </div>
+                          ) : (
+                        inspectorStocks.map((stock) => {
                           const isActive = stock.active;
                           const isWatchlisted = watchlistCodeSet.has(stock.code);
 
@@ -4197,7 +4303,8 @@ export function MarketHeatmap({ locale: initialLocale }: { locale: Locale; messa
                               </span>
                             </div>
                           );
-                        })}
+                        })
+                          )}
                       </div>
                     </div>
                   </>
