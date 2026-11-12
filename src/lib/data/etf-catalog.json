@@ -1,7 +1,5558 @@
 {
-  "updatedAt": "2026-11-03T09:10:05.353Z",
-  "count": 947,
+  "updatedAt": "2026-11-12T18:30:32.088Z",
+  "count": 1768,
   "etfs": [
+    {
+      "code": "158000.SZ",
+      "name": "港股通金融ETF鹏华",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "158001.SZ",
+      "name": "价值ETF嘉实",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "158002.SZ",
+      "name": "家电ETF天弘",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "158003.SZ",
+      "name": "港股通医疗ETF嘉实",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "158005.SZ",
+      "name": "工程机械ETF博时",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "基建"
+    },
+    {
+      "code": "158006.SZ",
+      "name": "化工ETF博时",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "158007.SZ",
+      "name": "航空航天ETF银华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "军工"
+    },
+    {
+      "code": "158008.SZ",
+      "name": "储能电池ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "158009.SZ",
+      "name": "航空航天ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "军工"
+    },
+    {
+      "code": "158010.SZ",
+      "name": "医疗ETF嘉实",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "158011.SZ",
+      "name": "创业板软件ETF国泰",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158012.SZ",
+      "name": "云计算ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "158013.SZ",
+      "name": "航空航天ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "军工"
+    },
+    {
+      "code": "158015.SZ",
+      "name": "红利质量ETF银华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "158016.SZ",
+      "name": "工业有色ETF嘉实",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "158017.SZ",
+      "name": "化工ETF易方达",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "158019.SZ",
+      "name": "电池ETF永赢",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "158022.SZ",
+      "name": "创业板综增强ETF国联",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158023.SZ",
+      "name": "红利低波ETF万家",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "158025.SZ",
+      "name": "创业板成长ETF鹏华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158026.SZ",
+      "name": "大盘成长ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "成长风格"
+    },
+    {
+      "code": "158027.SZ",
+      "name": "工业互联网ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "制造"
+    },
+    {
+      "code": "158028.SZ",
+      "name": "稀有金属ETF招商",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "158030.SZ",
+      "name": "航空航天ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "军工"
+    },
+    {
+      "code": "158031.SZ",
+      "name": "创业板人工智能ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158032.SZ",
+      "name": "化工ETF景顺",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "158036.SZ",
+      "name": "卫星ETF华夏",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "158037.SZ",
+      "name": "机器人ETF博时",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "158038.SZ",
+      "name": "粮食ETF富国",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "158039.SZ",
+      "name": "港股通红利低波ETF广发",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "158040.SZ",
+      "name": "科创创业人工智能ETF国联安",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158041.SZ",
+      "name": "创业板算力ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158042.SZ",
+      "name": "恒生科技ETF富国",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "158043.SZ",
+      "name": "价值ETF南方",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "158046.SZ",
+      "name": "卫星ETF南方",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "158047.SZ",
+      "name": "粮食ETF永赢",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "158049.SZ",
+      "name": "创业板算力ETF广发",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158050.SZ",
+      "name": "创业板算力ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158051.SZ",
+      "name": "金融科技ETF国联安",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "158052.SZ",
+      "name": "创业板金融科技ETF景顺",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158053.SZ",
+      "name": "创业板算力ETF大成",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158055.SZ",
+      "name": "创业板算力ETF国泰",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158056.SZ",
+      "name": "创业板算力ETF嘉实",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158057.SZ",
+      "name": "创业板算力ETF鹏华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158058.SZ",
+      "name": "创业板金融科技ETF华泰柏瑞",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158059.SZ",
+      "name": "创业板算力ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158060.SZ",
+      "name": "创业板金融科技ETF长城",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158061.SZ",
+      "name": "创业板算力ETF天弘",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158062.SZ",
+      "name": "创业板金融科技ETF建信",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158063.SZ",
+      "name": "创业板算力ETF南方",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158065.SZ",
+      "name": "粮食ETF招商",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "158066.SZ",
+      "name": "大数据ETF前海开源",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "158067.SZ",
+      "name": "创业板金融科技ETF万家",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158070.SZ",
+      "name": "港股通金融ETF招商",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "158072.SZ",
+      "name": "创业板软件ETF南方",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158075.SZ",
+      "name": "人工智能ETF嘉实",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "158076.SZ",
+      "name": "红利低波ETF广发",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "158078.SZ",
+      "name": "创业板电池ETF华宝",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158079.SZ",
+      "name": "创业板电池ETF华安",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158081.SZ",
+      "name": "创业板电池ETF永赢",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158082.SZ",
+      "name": "创业板电池ETF银华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158087.SZ",
+      "name": "创业板电池ETF国联",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158088.SZ",
+      "name": "创业板电池ETF博时",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158091.SZ",
+      "name": "创业板电池ETF汇添富",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158092.SZ",
+      "name": "创业板电池ETF招商",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "158102.SZ",
+      "name": "化工ETF南方",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "158900.SZ",
+      "name": "均衡主动ETF南方",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "158901.SZ",
+      "name": "价值优选主动ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "158902.SZ",
+      "name": "红利智选主动ETF大成",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "158903.SZ",
+      "name": "价值主动ETF鹏华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "158905.SZ",
+      "name": "红利主动ETF工银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "158906.SZ",
+      "name": "均衡主动ETF华宝",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "158907.SZ",
+      "name": "鑫汇均衡主动ETF国泰",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "158908.SZ",
+      "name": "均衡量化主动ETF天弘",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "158909.SZ",
+      "name": "均衡优选主动ETF建信",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159001.SZ",
+      "name": "货币ETF易方达",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159003.SZ",
+      "name": "招商快线ETF",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159005.SZ",
+      "name": "快钱ETF汇添富",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159007.SZ",
+      "name": "华泰柏瑞中证畜牧养殖产业ETF",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159008.SZ",
+      "name": "景顺长城中证全指证券公司ETF",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159009.SZ",
+      "name": "易方达创业板新能源ETF",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159010.SZ",
+      "name": "港股通科技ETF博时",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159011.SZ",
+      "name": "养殖ETF华安",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159012.SZ",
+      "name": "鹏华科创创业50ETF",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159013.SZ",
+      "name": "大成中证工业互联网主题ETF",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "制造"
+    },
+    {
+      "code": "159015.SZ",
+      "name": "恒生港股通科技ETF国联",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159016.SZ",
+      "name": "证券ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159017.SZ",
+      "name": "工银瑞信国证石油天然气ETF",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159018.SZ",
+      "name": "广发国证石油天然气ETF",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159019.SZ",
+      "name": "华宝国证石油天然气ETF",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159020.SZ",
+      "name": "易方达中证畜牧养殖产业ETF",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159021.SZ",
+      "name": "华夏国证大盘价值ETF",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159022.SZ",
+      "name": "富国中证科创创业人工智能ETF",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159023.SZ",
+      "name": "养殖ETF万家",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159025.SZ",
+      "name": "家电ETF华安",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159026.SZ",
+      "name": "南方国证石油天然气ETF",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159027.SZ",
+      "name": "畜牧养殖ETF大成",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159028.SZ",
+      "name": "港股汽车ETF天弘",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159029.SZ",
+      "name": "广发中证有色金属矿业主题ETF",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159030.SZ",
+      "name": "粮食ETF华夏",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159031.SZ",
+      "name": "粮食ETF博时",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159032.SZ",
+      "name": "工业有色ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159033.SZ",
+      "name": "粮食ETF国泰",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159035.SZ",
+      "name": "天弘中证软件服务ETF",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159036.SZ",
+      "name": "软件开发ETF华宝",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159037.SZ",
+      "name": "价值ETF鹏华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159038.SZ",
+      "name": "易方达国证粮食产业ETF",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159039.SZ",
+      "name": "机器人ETF华安",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159040.SZ",
+      "name": "港股通互联网ETF鹏华",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159041.SZ",
+      "name": "农业ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159042.SZ",
+      "name": "价值ETF汇添富",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159043.SZ",
+      "name": "食品ETF华安",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159045.SZ",
+      "name": "稀有金属ETF大成",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159046.SZ",
+      "name": "绿电ETF天弘",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159047.SZ",
+      "name": "港股信息技术ETF银华",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159048.SZ",
+      "name": "机器人ETF大成",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159049.SZ",
+      "name": "有色ETF工银",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159050.SZ",
+      "name": "机器人ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159051.SZ",
+      "name": "医疗器械ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159052.SZ",
+      "name": "储能电池ETF嘉实",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159053.SZ",
+      "name": "稀有金属ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159055.SZ",
+      "name": "稀有金属ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159056.SZ",
+      "name": "医疗器械ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159057.SZ",
+      "name": "医疗器械ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159058.SZ",
+      "name": "证券ETF大成",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159059.SZ",
+      "name": "大成中证全指电力公用事业ETF",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159060.SZ",
+      "name": "粮食ETF浦银",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159061.SZ",
+      "name": "绿色电力ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "能源"
+    },
+    {
+      "code": "159062.SZ",
+      "name": "稀有金属ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159063.SZ",
+      "name": "粮食ETF南方",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159065.SZ",
+      "name": "工程机械ETF景顺",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "基建"
+    },
+    {
+      "code": "159066.SZ",
+      "name": "A股ETF建信",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159067.SZ",
+      "name": "鹏华国证绿色电力ETF",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159068.SZ",
+      "name": "软件ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159069.SZ",
+      "name": "华泰柏瑞创业板新能源ETF",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159070.SZ",
+      "name": "工程机械ETF嘉实",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "基建"
+    },
+    {
+      "code": "159071.SZ",
+      "name": "储能电池ETF华宝",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159072.SZ",
+      "name": "粮食ETF景顺",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159073.SZ",
+      "name": "粮食ETF汇添富",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159075.SZ",
+      "name": "工业互联网ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "制造"
+    },
+    {
+      "code": "159076.SZ",
+      "name": "创业板新能源ETF华宝",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159077.SZ",
+      "name": "电池ETF鑫元",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159078.SZ",
+      "name": "A股ETF富国",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159079.SZ",
+      "name": "价值ETF兴全",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159082.SZ",
+      "name": "化工ETF华夏",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159083.SZ",
+      "name": "红利低波100ETF嘉实",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159085.SZ",
+      "name": "价值ETF永赢",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159086.SZ",
+      "name": "金融科技ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159087.SZ",
+      "name": "化工ETF万家",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159089.SZ",
+      "name": "港股通互联网ETF国联",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159091.SZ",
+      "name": "港股通金融ETF易方达",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159093.SZ",
+      "name": "化工ETF汇添富",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159095.SZ",
+      "name": "云计算ETF银华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159096.SZ",
+      "name": "价值ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159098.SZ",
+      "name": "价值ETF招商",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159099.SZ",
+      "name": "华宝中证云计算50ETF",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159100.SZ",
+      "name": "巴西ETF华夏",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159101.SZ",
+      "name": "港股通科技ETF华夏",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159102.SZ",
+      "name": "港股通生物科技ETF华安",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159103.SZ",
+      "name": "金融科技ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159105.SZ",
+      "name": "恒生生物科技ETF易方达",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159106.SZ",
+      "name": "民企300ETF前海开源",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "沪深300"
+    },
+    {
+      "code": "159107.SZ",
+      "name": "创业板软件ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159108.SZ",
+      "name": "工业软件ETF博时",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159109.SZ",
+      "name": "恒生50ETF景顺",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159110.SZ",
+      "name": "科创债ETF万家",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159111.SZ",
+      "name": "科创债ETF天弘",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159112.SZ",
+      "name": "科创债ETF银华",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159113.SZ",
+      "name": "科创债ETF大成",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159115.SZ",
+      "name": "科创债ETF华安",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159116.SZ",
+      "name": "科创债ETF工银",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159117.SZ",
+      "name": "港股通红利低波ETF鹏华",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159118.SZ",
+      "name": "港股通红利低波ETF华夏",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159119.SZ",
+      "name": "800现金流ETF招商",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159120.SZ",
+      "name": "港股通科技ETF国联安",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159121.SZ",
+      "name": "港股通汽车ETF易方达",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159122.SZ",
+      "name": "创业板新能源ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159123.SZ",
+      "name": "光伏ETF嘉实",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159125.SZ",
+      "name": "港股通科技ETF招商",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159126.SZ",
+      "name": "港股通50ETF南方",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159127.SZ",
+      "name": "港股通红利ETF南方",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159128.SZ",
+      "name": "港股科技ETF天弘",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159129.SZ",
+      "name": "化工ETF嘉实",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159130.SZ",
+      "name": "恒生生物科技ETF鹏华",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159131.SZ",
+      "name": "港股通信息技术ETF华宝",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159132.SZ",
+      "name": "恒生生物科技ETF富国",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159133.SZ",
+      "name": "化工ETF天弘",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159135.SZ",
+      "name": "港股通科技ETF前海开源",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159136.SZ",
+      "name": "A50ETF广发",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159137.SZ",
+      "name": "港股通医疗ETF华宝",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159138.SZ",
+      "name": "工程机械ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "基建"
+    },
+    {
+      "code": "159139.SZ",
+      "name": "科创创业人工智能ETF华泰柏瑞",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159140.SZ",
+      "name": "科创创业人工智能ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159141.SZ",
+      "name": "科创创业人工智能ETF永赢",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159142.SZ",
+      "name": "科创创业人工智能ETF景顺",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159143.SZ",
+      "name": "港股通央企红利ETF平安",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159145.SZ",
+      "name": "工业软件ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159146.SZ",
+      "name": "电力ETF华宝",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "能源"
+    },
+    {
+      "code": "159147.SZ",
+      "name": "电池ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159148.SZ",
+      "name": "石油ETF富国",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159149.SZ",
+      "name": "创业板新能源ETF工银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159150.SZ",
+      "name": "深证50ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159151.SZ",
+      "name": "食品ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159152.SZ",
+      "name": "港股通科技ETF平安",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159153.SZ",
+      "name": "消费电子ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159155.SZ",
+      "name": "电池ETF大成",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159156.SZ",
+      "name": "电池ETF万家",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159157.SZ",
+      "name": "有色金属ETF天弘",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159158.SZ",
+      "name": "电力ETF景顺",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "能源"
+    },
+    {
+      "code": "159159.SZ",
+      "name": "公用事业ETF国投瑞银",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "能源"
+    },
+    {
+      "code": "159160.SZ",
+      "name": "电池ETF东财",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159161.SZ",
+      "name": "工程机械ETF东财",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "基建"
+    },
+    {
+      "code": "159162.SZ",
+      "name": "工业有色ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159163.SZ",
+      "name": "有色ETF泰康",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159165.SZ",
+      "name": "养殖ETF永赢",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159166.SZ",
+      "name": "现金流ETF长城",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159167.SZ",
+      "name": "港股通医疗ETF工银",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159168.SZ",
+      "name": "有色ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159169.SZ",
+      "name": "恒生生物科技ETF广发",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159170.SZ",
+      "name": "港股通互联网ETF永赢",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159171.SZ",
+      "name": "工业有色ETF博时",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159172.SZ",
+      "name": "养殖ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159173.SZ",
+      "name": "南方中证全指农牧渔ETF",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159175.SZ",
+      "name": "电池ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159176.SZ",
+      "name": "华宝中证全指家用电器ETF",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159177.SZ",
+      "name": "鹏华中证工程机械主题ETF",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "基建"
+    },
+    {
+      "code": "159178.SZ",
+      "name": "汇添富国证消费电子主题ETF",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159179.SZ",
+      "name": "港股通互联网ETF工银",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159180.SZ",
+      "name": "银华国证工业软件主题ETF",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159181.SZ",
+      "name": "石油ETF易方达",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159182.SZ",
+      "name": "南方中证全指家用电器ETF",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159183.SZ",
+      "name": "新能源车ETF招商",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159185.SZ",
+      "name": "鹏华中证港股通信息技术综合ETF",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159186.SZ",
+      "name": "鹏华恒生港股通汽车主题ETF",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159187.SZ",
+      "name": "创业板新能源ETF景顺",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159188.SZ",
+      "name": "景顺长城标普中国A股红利100ETF",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "美股"
+    },
+    {
+      "code": "159189.SZ",
+      "name": "石油ETF华夏",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159190.SZ",
+      "name": "创业板新能源ETF天弘",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159191.SZ",
+      "name": "港股通科技ETF易方达",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159192.SZ",
+      "name": "汇添富中证家电龙头ETF",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159193.SZ",
+      "name": "储能电池ETF银华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159195.SZ",
+      "name": "华安国证石油天然气ETF",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159196.SZ",
+      "name": "易方达中证港股通信息技术综合ETF",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159197.SZ",
+      "name": "招商国证石油天然气ETF",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159198.SZ",
+      "name": "富国中证港股通信息技术综合ETF",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159199.SZ",
+      "name": "平安国证石油天然气ETF",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159200.SZ",
+      "name": "科创债ETF富国",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159201.SZ",
+      "name": "自由现金流ETF华夏",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159202.SZ",
+      "name": "恒生互联网ETF万家",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159203.SZ",
+      "name": "大盘成长ETF博时",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "成长风格"
+    },
+    {
+      "code": "159205.SZ",
+      "name": "创业板ETF东财",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159206.SZ",
+      "name": "卫星ETF永赢",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159207.SZ",
+      "name": "高股息ETF广发",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159208.SZ",
+      "name": "航空航天ETF万家",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "军工"
+    },
+    {
+      "code": "159209.SZ",
+      "name": "红利质量ETF招商",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159210.SZ",
+      "name": "港股通汽车ETF汇添富",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159211.SZ",
+      "name": "深证100ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159212.SZ",
+      "name": "深100ETF南方",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159213.SZ",
+      "name": "机器人ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159215.SZ",
+      "name": "A500ETF平安",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159216.SZ",
+      "name": "深证100ETF大成",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159217.SZ",
+      "name": "港股通创新药ETF工银",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159218.SZ",
+      "name": "卫星ETF招商",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159219.SZ",
+      "name": "深证100ETF融通",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159220.SZ",
+      "name": "港股通红利低波ETF华宝",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159221.SZ",
+      "name": "现金流ETF嘉实",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159222.SZ",
+      "name": "自由现金流ETF易方达",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159223.SZ",
+      "name": "现金流ETF永赢",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159225.SZ",
+      "name": "现金流ETF银华",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159226.SZ",
+      "name": "中证A500增强ETF国泰",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159227.SZ",
+      "name": "航空航天ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "军工"
+    },
+    {
+      "code": "159228.SZ",
+      "name": "红利低波ETF长城",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159229.SZ",
+      "name": "自由现金流ETF广发",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159230.SZ",
+      "name": "通用航空ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "交通运输"
+    },
+    {
+      "code": "159231.SZ",
+      "name": "通用航空ETF华宝",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "交通运输"
+    },
+    {
+      "code": "159232.SZ",
+      "name": "自由现金流ETF南方",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159233.SZ",
+      "name": "自由现金流ETF平安",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159235.SZ",
+      "name": "中证现金流ETF大成",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159236.SZ",
+      "name": "自由现金流ETF工银",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159237.SZ",
+      "name": "港股汽车ETF工银",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159238.SZ",
+      "name": "沪深300增强ETF景顺",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "沪深300"
+    },
+    {
+      "code": "159239.SZ",
+      "name": "港股通汽车ETF富国",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159240.SZ",
+      "name": "A500增强ETF天弘",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159241.SZ",
+      "name": "航空航天ETF天弘",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "军工"
+    },
+    {
+      "code": "159242.SZ",
+      "name": "创业板人工智能ETF大成",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159243.SZ",
+      "name": "创业板人工智能ETF招商",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159245.SZ",
+      "name": "港股通消费ETF富国",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159246.SZ",
+      "name": "创业板人工智能ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159247.SZ",
+      "name": "创业板ETF汇添富",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159248.SZ",
+      "name": "人工智能ETF万家",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159249.SZ",
+      "name": "A500增强ETF工银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159251.SZ",
+      "name": "港股通科技ETF万家",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159253.SZ",
+      "name": "银行ETF博时",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159255.SZ",
+      "name": "通用航空ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "交通运输"
+    },
+    {
+      "code": "159256.SZ",
+      "name": "创业板软件ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159257.SZ",
+      "name": "航空ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "交通运输"
+    },
+    {
+      "code": "159258.SZ",
+      "name": "机器人ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159259.SZ",
+      "name": "成长ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "成长风格"
+    },
+    {
+      "code": "159260.SZ",
+      "name": "证券ETF博时",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159261.SZ",
+      "name": "创业板新能源ETF鹏华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159262.SZ",
+      "name": "港股通科技ETF广发",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159263.SZ",
+      "name": "价值ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159265.SZ",
+      "name": "港股消费ETF鹏华",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159266.SZ",
+      "name": "港股央企红利ETF永赢",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159267.SZ",
+      "name": "航天ETF华安",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159268.SZ",
+      "name": "港股通消费ETF汇添富",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159269.SZ",
+      "name": "港股通科技ETF南方",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159270.SZ",
+      "name": "创业板200ETF南方",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159271.SZ",
+      "name": "恒生ETF鹏华",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159272.SZ",
+      "name": "机器人ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159273.SZ",
+      "name": "云计算ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159275.SZ",
+      "name": "农牧渔ETF华宝",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159276.SZ",
+      "name": "现金流ETF汇添富",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159277.SZ",
+      "name": "港股通红利ETF富国",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159278.SZ",
+      "name": "机器人ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159279.SZ",
+      "name": "创业板人工智能ETF华安",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159280.SZ",
+      "name": "港股通互联网ETF汇添富",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159281.SZ",
+      "name": "港股央企红利ETF天弘",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159283.SZ",
+      "name": "通用航空ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "交通运输"
+    },
+    {
+      "code": "159285.SZ",
+      "name": "港股通消费ETF华安",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159286.SZ",
+      "name": "港股通创新药ETF鹏华",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159287.SZ",
+      "name": "创业板综ETF博时",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159288.SZ",
+      "name": "创业板综ETF银华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159289.SZ",
+      "name": "创业板综指ETF鹏华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159290.SZ",
+      "name": "创业板综指增强ETF东财",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159291.SZ",
+      "name": "创业板综增强ETF招商",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159292.SZ",
+      "name": "创业板综增强ETF华宝",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159293.SZ",
+      "name": "创业板综增强ETF建信",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159295.SZ",
+      "name": "创业综指ETF西部利得",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159296.SZ",
+      "name": "A500红利低波ETF华宝",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159297.SZ",
+      "name": "港股通创新药ETF南方",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159298.SZ",
+      "name": "创业板50ETF大成",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159299.SZ",
+      "name": "金融科技ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159300.SZ",
+      "name": "沪深300ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "沪深300"
+    },
+    {
+      "code": "159301.SZ",
+      "name": "公用事业ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "能源"
+    },
+    {
+      "code": "159302.SZ",
+      "name": "港股高股息ETF银华",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159303.SZ",
+      "name": "恒生医疗ETF大成",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159305.SZ",
+      "name": "储能电池ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159306.SZ",
+      "name": "汽车零部件ETF平安",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "汽车"
+    },
+    {
+      "code": "159307.SZ",
+      "name": "红利低波100ETF博时",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159309.SZ",
+      "name": "油气ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "能源"
+    },
+    {
+      "code": "159310.SZ",
+      "name": "芯片ETF天弘",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159311.SZ",
+      "name": "数字经济ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159312.SZ",
+      "name": "恒指港股通ETF广发",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159315.SZ",
+      "name": "黄金股ETF工银",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "贵金属"
+    },
+    {
+      "code": "159316.SZ",
+      "name": "港股通创新药ETF易方达",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159318.SZ",
+      "name": "恒指港股通ETF银华",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159320.SZ",
+      "name": "电网设备ETF广发",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159321.SZ",
+      "name": "黄金股ETF华安",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "贵金属"
+    },
+    {
+      "code": "159322.SZ",
+      "name": "黄金股ETF平安",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "贵金属"
+    },
+    {
+      "code": "159323.SZ",
+      "name": "港股通汽车ETF华夏",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159325.SZ",
+      "name": "半导体ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159326.SZ",
+      "name": "电网设备ETF华夏",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159327.SZ",
+      "name": "半导体设备ETF万家",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159328.SZ",
+      "name": "家电ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159329.SZ",
+      "name": "沙特ETF南方",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "东南亚"
+    },
+    {
+      "code": "159330.SZ",
+      "name": "沪深300ETF东财",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "沪深300"
+    },
+    {
+      "code": "159331.SZ",
+      "name": "红利港股ETF国泰",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159332.SZ",
+      "name": "央企红利ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159333.SZ",
+      "name": "港股央企红利ETF万家",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159335.SZ",
+      "name": "央企科创ETF融通",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "科创板"
+    },
+    {
+      "code": "159336.SZ",
+      "name": "央企红利ETF融通",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159337.SZ",
+      "name": "中证500ETF东财",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证500"
+    },
+    {
+      "code": "159338.SZ",
+      "name": "中证A500ETF国泰",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159339.SZ",
+      "name": "A500ETF银华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159350.SZ",
+      "name": "深证50ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159351.SZ",
+      "name": "A500ETF嘉实",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159352.SZ",
+      "name": "A500ETF南方",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159353.SZ",
+      "name": "中证A500ETF景顺",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159355.SZ",
+      "name": "800红利低波ETF华宝",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159356.SZ",
+      "name": "A500ETF万家",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159357.SZ",
+      "name": "A500ETF博时",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159358.SZ",
+      "name": "中证A500ETF大成",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159359.SZ",
+      "name": "A500ETF华安",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159360.SZ",
+      "name": "A500ETF天弘",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159361.SZ",
+      "name": "A500ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159362.SZ",
+      "name": "A500ETF工银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159363.SZ",
+      "name": "创业板人工智能ETF华宝",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159365.SZ",
+      "name": "恒指港股通ETF富国",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159366.SZ",
+      "name": "港股医疗ETF永赢",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159367.SZ",
+      "name": "创业板50ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159368.SZ",
+      "name": "创业板新能源ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159369.SZ",
+      "name": "创业板50ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159370.SZ",
+      "name": "创50ETF工银",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159371.SZ",
+      "name": "创业板50ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159372.SZ",
+      "name": "创业板50ETF万家",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159373.SZ",
+      "name": "创业板50ETF嘉实",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159375.SZ",
+      "name": "创业板50ETF国泰",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159376.SZ",
+      "name": "A500ETF浦银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159377.SZ",
+      "name": "创业板医药ETF国泰",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159378.SZ",
+      "name": "通用航空ETF永赢",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "交通运输"
+    },
+    {
+      "code": "159379.SZ",
+      "name": "A500ETF融通",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159380.SZ",
+      "name": "A500ETF东财",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159381.SZ",
+      "name": "创业板人工智能ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159382.SZ",
+      "name": "创业板人工智能ETF南方",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159383.SZ",
+      "name": "创业板50ETF华泰柏瑞",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159385.SZ",
+      "name": "数字经济ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159386.SZ",
+      "name": "A500ETF永赢",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159387.SZ",
+      "name": "创业板新能源ETF国泰",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159388.SZ",
+      "name": "创业板人工智能ETF国泰",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159389.SZ",
+      "name": "数字经济ETF嘉实",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159390.SZ",
+      "name": "中证A50ETF国联",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159391.SZ",
+      "name": "大盘价值ETF博时",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159392.SZ",
+      "name": "航空ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "交通运输"
+    },
+    {
+      "code": "159393.SZ",
+      "name": "沪深300ETF万家",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "沪深300"
+    },
+    {
+      "code": "159395.SZ",
+      "name": "信用债ETF大成",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159396.SZ",
+      "name": "信用债ETF博时",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159397.SZ",
+      "name": "信用债ETF广发",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159398.SZ",
+      "name": "信用债ETF天弘",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159399.SZ",
+      "name": "现金流ETF国泰",
+      "family": "money",
+      "boardName": "货币",
+      "subBoardName": "货币"
+    },
+    {
+      "code": "159400.SZ",
+      "name": "科创债ETF景顺",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159500.SZ",
+      "name": "中证500ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证500"
+    },
+    {
+      "code": "159501.SZ",
+      "name": "纳指ETF嘉实",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "美股"
+    },
+    {
+      "code": "159502.SZ",
+      "name": "标普生物科技ETF嘉实",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "美股"
+    },
+    {
+      "code": "159505.SZ",
+      "name": "国证2000ETF博时",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证2000"
+    },
+    {
+      "code": "159506.SZ",
+      "name": "港股通医疗ETF富国",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159507.SZ",
+      "name": "通信ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159508.SZ",
+      "name": "生物医药ETF华安",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159509.SZ",
+      "name": "纳指科技ETF景顺",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "美股"
+    },
+    {
+      "code": "159510.SZ",
+      "name": "沪深300价值ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "沪深300"
+    },
+    {
+      "code": "159511.SZ",
+      "name": "通信ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159512.SZ",
+      "name": "汽车ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "汽车"
+    },
+    {
+      "code": "159513.SZ",
+      "name": "纳斯达克100ETF大成",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "美股"
+    },
+    {
+      "code": "159515.SZ",
+      "name": "国企红利ETF鹏扬",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159516.SZ",
+      "name": "半导体设备ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159517.SZ",
+      "name": "中证800增强ETF银华",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159518.SZ",
+      "name": "标普油气ETF嘉实",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "美股"
+    },
+    {
+      "code": "159519.SZ",
+      "name": "港股国企ETF国泰",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159520.SZ",
+      "name": "消费龙头ETF工银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159521.SZ",
+      "name": "国证2000ETF平安",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证2000"
+    },
+    {
+      "code": "159523.SZ",
+      "name": "沪深300成长ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "沪深300"
+    },
+    {
+      "code": "159525.SZ",
+      "name": "红利低波ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159526.SZ",
+      "name": "机器人ETF嘉实",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159527.SZ",
+      "name": "云计算ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159528.SZ",
+      "name": "国企改革ETF富国",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159529.SZ",
+      "name": "标普消费ETF景顺",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "美股"
+    },
+    {
+      "code": "159530.SZ",
+      "name": "机器人ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159531.SZ",
+      "name": "中证2000ETF南方",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证2000"
+    },
+    {
+      "code": "159532.SZ",
+      "name": "中证2000ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证2000"
+    },
+    {
+      "code": "159533.SZ",
+      "name": "中证2000ETF博时",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证2000"
+    },
+    {
+      "code": "159535.SZ",
+      "name": "中证2000ETF嘉实",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证2000"
+    },
+    {
+      "code": "159536.SZ",
+      "name": "中证2000ETF汇添富",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证2000"
+    },
+    {
+      "code": "159537.SZ",
+      "name": "信创ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159538.SZ",
+      "name": "信创ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159539.SZ",
+      "name": "信创ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159540.SZ",
+      "name": "信创ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159541.SZ",
+      "name": "创业板综ETF万家",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159542.SZ",
+      "name": "工程机械ETF大成",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "基建"
+    },
+    {
+      "code": "159543.SZ",
+      "name": "国证2000ETF工银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证2000"
+    },
+    {
+      "code": "159545.SZ",
+      "name": "港股通红利低波ETF易方达",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159546.SZ",
+      "name": "集成电路ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159547.SZ",
+      "name": "红利低波ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159549.SZ",
+      "name": "红利低波ETF天弘",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159550.SZ",
+      "name": "互联网ETF东财",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159551.SZ",
+      "name": "机器人ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159552.SZ",
+      "name": "中证2000增强ETF招商",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证2000"
+    },
+    {
+      "code": "159553.SZ",
+      "name": "中证2000增强ETF海富通",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证2000"
+    },
+    {
+      "code": "159555.SZ",
+      "name": "中证2000增强ETF银华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证2000"
+    },
+    {
+      "code": "159556.SZ",
+      "name": "中证2000增强ETF平安",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证2000"
+    },
+    {
+      "code": "159557.SZ",
+      "name": "恒生医疗ETF嘉实",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159558.SZ",
+      "name": "半导体设备ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159559.SZ",
+      "name": "机器人ETF景顺",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159560.SZ",
+      "name": "芯片ETF景顺",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159561.SZ",
+      "name": "德国ETF嘉实",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "欧洲"
+    },
+    {
+      "code": "159562.SZ",
+      "name": "黄金股ETF华夏",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "贵金属"
+    },
+    {
+      "code": "159563.SZ",
+      "name": "创业板综ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159565.SZ",
+      "name": "汽车零部件ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "汽车"
+    },
+    {
+      "code": "159566.SZ",
+      "name": "储能电池ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159567.SZ",
+      "name": "港股创新药ETF银华",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159568.SZ",
+      "name": "港股互联网ETF博时",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159569.SZ",
+      "name": "港股红利低波ETF景顺",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159570.SZ",
+      "name": "港股通创新药ETF汇添富",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159571.SZ",
+      "name": "创业板200ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159572.SZ",
+      "name": "创业板200ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159573.SZ",
+      "name": "创业板200ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159575.SZ",
+      "name": "创业板200ETF银华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159576.SZ",
+      "name": "深证100ETF广发",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159577.SZ",
+      "name": "美国50ETF汇添富",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "美股"
+    },
+    {
+      "code": "159578.SZ",
+      "name": "深证主板50ETF南方",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159581.SZ",
+      "name": "红利ETF万家",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159582.SZ",
+      "name": "半导体ETF博时",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159583.SZ",
+      "name": "通信ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159586.SZ",
+      "name": "计算机ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159587.SZ",
+      "name": "粮食ETF广发",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159588.SZ",
+      "name": "石油ETF景顺",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159589.SZ",
+      "name": "红利ETF广发",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159590.SZ",
+      "name": "软件ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159591.SZ",
+      "name": "A50ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159592.SZ",
+      "name": "A50ETF银华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159593.SZ",
+      "name": "A50ETF平安",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159595.SZ",
+      "name": "中证A50ETF大成",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159596.SZ",
+      "name": "A50ETF华宝",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159597.SZ",
+      "name": "创业板成长ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159599.SZ",
+      "name": "芯片ETF东财",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159600.SZ",
+      "name": "科创债ETF嘉实",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159601.SZ",
+      "name": "A50ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159602.SZ",
+      "name": "中国A50ETF南方",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159603.SZ",
+      "name": "科创创业ETF天弘",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159605.SZ",
+      "name": "中概互联ETF广发",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159606.SZ",
+      "name": "中证500成长ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证500"
+    },
+    {
+      "code": "159607.SZ",
+      "name": "中概互联网ETF嘉实",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159608.SZ",
+      "name": "稀有金属ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159609.SZ",
+      "name": "光伏ETF浦银",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159610.SZ",
+      "name": "中证500增强ETF景顺",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证500"
+    },
+    {
+      "code": "159611.SZ",
+      "name": "电力ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "能源"
+    },
+    {
+      "code": "159612.SZ",
+      "name": "标普500ETF国泰",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "美股"
+    },
+    {
+      "code": "159613.SZ",
+      "name": "信息安全ETF嘉实",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159615.SZ",
+      "name": "恒生生物科技ETF南方",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159616.SZ",
+      "name": "农牧ETF建信",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159617.SZ",
+      "name": "中证500价值ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证500"
+    },
+    {
+      "code": "159618.SZ",
+      "name": "光伏ETF华安",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159619.SZ",
+      "name": "基建ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "基建"
+    },
+    {
+      "code": "159620.SZ",
+      "name": "中证500成长ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证500"
+    },
+    {
+      "code": "159621.SZ",
+      "name": "ESGETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "环保"
+    },
+    {
+      "code": "159622.SZ",
+      "name": "创新药ETF东财",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159623.SZ",
+      "name": "成渝经济圈ETF博时",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159625.SZ",
+      "name": "绿色电力ETF嘉实",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "能源"
+    },
+    {
+      "code": "159627.SZ",
+      "name": "A100ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159628.SZ",
+      "name": "国证2000ETF万家",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证2000"
+    },
+    {
+      "code": "159629.SZ",
+      "name": "中证1000ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证1000"
+    },
+    {
+      "code": "159630.SZ",
+      "name": "A100ETF汇添富",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159631.SZ",
+      "name": "A100ETF招商",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159632.SZ",
+      "name": "纳斯达克ETF华安",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "美股"
+    },
+    {
+      "code": "159633.SZ",
+      "name": "中证1000ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证1000"
+    },
+    {
+      "code": "159635.SZ",
+      "name": "基建ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "基建"
+    },
+    {
+      "code": "159636.SZ",
+      "name": "港股通科技30ETF工银",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159637.SZ",
+      "name": "新能源车ETF东财",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159638.SZ",
+      "name": "航空航天ETF嘉实",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "军工"
+    },
+    {
+      "code": "159639.SZ",
+      "name": "碳中和ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159640.SZ",
+      "name": "碳中和龙头ETF工银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159641.SZ",
+      "name": "碳中和ETF招商",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159642.SZ",
+      "name": "碳中和ETF大成",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159643.SZ",
+      "name": "疫苗ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159645.SZ",
+      "name": "疫苗ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159647.SZ",
+      "name": "中药ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159649.SZ",
+      "name": "国开债ETF华安",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159650.SZ",
+      "name": "国开债ETF博时",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159651.SZ",
+      "name": "国开债ETF平安",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159652.SZ",
+      "name": "有色ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159653.SZ",
+      "name": "ESG300ETF国联安",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "沪深300"
+    },
+    {
+      "code": "159655.SZ",
+      "name": "标普500ETF华夏",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "美股"
+    },
+    {
+      "code": "159656.SZ",
+      "name": "沪深300成长ETF万家",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "沪深300"
+    },
+    {
+      "code": "159657.SZ",
+      "name": "疫苗ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159658.SZ",
+      "name": "数字经济ETF华安",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159659.SZ",
+      "name": "纳斯达克100ETF招商",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "美股"
+    },
+    {
+      "code": "159660.SZ",
+      "name": "纳指ETF汇添富",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "美股"
+    },
+    {
+      "code": "159661.SZ",
+      "name": "A100ETF嘉实",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159662.SZ",
+      "name": "交运ETF南方",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159663.SZ",
+      "name": "机床ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "制造"
+    },
+    {
+      "code": "159665.SZ",
+      "name": "半导体龙头ETF工银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159666.SZ",
+      "name": "交通运输ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "交通运输"
+    },
+    {
+      "code": "159667.SZ",
+      "name": "工业母机ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "制造"
+    },
+    {
+      "code": "159669.SZ",
+      "name": "绿色电力ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "能源"
+    },
+    {
+      "code": "159670.SZ",
+      "name": "消费50ETF国联安",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159671.SZ",
+      "name": "稀有金属ETF工银",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159672.SZ",
+      "name": "消费ETF博时",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159673.SZ",
+      "name": "沪深300ETF鹏华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "沪深300"
+    },
+    {
+      "code": "159675.SZ",
+      "name": "创业板增强ETF嘉实",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159676.SZ",
+      "name": "创业板增强ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159677.SZ",
+      "name": "中证1000增强ETF银华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证1000"
+    },
+    {
+      "code": "159678.SZ",
+      "name": "500增强ETF博时",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证500"
+    },
+    {
+      "code": "159679.SZ",
+      "name": "中证1000增强ETF国泰",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证1000"
+    },
+    {
+      "code": "159680.SZ",
+      "name": "中证1000增强ETF招商",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证1000"
+    },
+    {
+      "code": "159681.SZ",
+      "name": "创业板50ETF鹏华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159682.SZ",
+      "name": "创业板50ETF景顺",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159685.SZ",
+      "name": "1000增强ETF天弘",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证1000"
+    },
+    {
+      "code": "159686.SZ",
+      "name": "A100ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159687.SZ",
+      "name": "亚太精选ETF南方",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "东南亚"
+    },
+    {
+      "code": "159688.SZ",
+      "name": "恒生互联网ETF华安",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159689.SZ",
+      "name": "消费ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159690.SZ",
+      "name": "有色矿业ETF招商",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159691.SZ",
+      "name": "港股红利ETF工银",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159692.SZ",
+      "name": "证券ETF东财",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159695.SZ",
+      "name": "通信ETF嘉实",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159696.SZ",
+      "name": "纳指ETF易方达",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "美股"
+    },
+    {
+      "code": "159697.SZ",
+      "name": "石油ETF鹏华",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159698.SZ",
+      "name": "粮食ETF鹏华",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159699.SZ",
+      "name": "恒生消费ETF广发",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159700.SZ",
+      "name": "科创债ETF南方",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159701.SZ",
+      "name": "物联网ETF招商",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159703.SZ",
+      "name": "新材料ETF天弘",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159706.SZ",
+      "name": "深证100ETF华安",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159707.SZ",
+      "name": "地产ETF华宝",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "地产"
+    },
+    {
+      "code": "159708.SZ",
+      "name": "红利ETF西部利得",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159709.SZ",
+      "name": "物联网ETF工银",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159711.SZ",
+      "name": "港股通50ETF华夏",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159712.SZ",
+      "name": "港股通50ETF国泰",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159713.SZ",
+      "name": "稀土ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159715.SZ",
+      "name": "稀土ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159716.SZ",
+      "name": "深证100ETF华宝",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159717.SZ",
+      "name": "ESGETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "环保"
+    },
+    {
+      "code": "159718.SZ",
+      "name": "港股医药ETF平安",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159719.SZ",
+      "name": "国企ETF平安",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159720.SZ",
+      "name": "智能车ETF泰康",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "汽车"
+    },
+    {
+      "code": "159721.SZ",
+      "name": "深证100ETF永赢",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159723.SZ",
+      "name": "科技龙头ETF汇添富",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159725.SZ",
+      "name": "线上消费ETF工银",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159726.SZ",
+      "name": "港股通红利ETF华夏",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159728.SZ",
+      "name": "在线消费ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159729.SZ",
+      "name": "互联网ETF汇添富",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159730.SZ",
+      "name": "家电ETF博时",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159731.SZ",
+      "name": "石化ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "能源"
+    },
+    {
+      "code": "159732.SZ",
+      "name": "消费电子ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159735.SZ",
+      "name": "港股消费ETF银华",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159736.SZ",
+      "name": "食品饮料ETF天弘",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159738.SZ",
+      "name": "云计算ETF华泰柏瑞",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159739.SZ",
+      "name": "云计算ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159740.SZ",
+      "name": "恒生科技ETF大成",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159741.SZ",
+      "name": "恒生科技ETF嘉实",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159742.SZ",
+      "name": "恒生科技ETF博时",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159743.SZ",
+      "name": "湖北ETF博时",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159745.SZ",
+      "name": "建材ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "基建"
+    },
+    {
+      "code": "159747.SZ",
+      "name": "香港科技ETF南方",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159748.SZ",
+      "name": "创新药ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159750.SZ",
+      "name": "港股科技50ETF招商",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159751.SZ",
+      "name": "港股通科技ETF鹏华",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159752.SZ",
+      "name": "新能源ETF申万菱信",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159755.SZ",
+      "name": "电池ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159757.SZ",
+      "name": "电池ETF景顺",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159758.SZ",
+      "name": "红利质量ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159760.SZ",
+      "name": "医疗健康ETF泰康",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159761.SZ",
+      "name": "新材料ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159763.SZ",
+      "name": "新材料ETF建信",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159766.SZ",
+      "name": "旅游ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159767.SZ",
+      "name": "电池龙头ETF兴银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159768.SZ",
+      "name": "房地产ETF银华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "地产"
+    },
+    {
+      "code": "159770.SZ",
+      "name": "机器人ETF天弘",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159773.SZ",
+      "name": "创业板科技ETF华泰柏瑞",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159775.SZ",
+      "name": "电池ETF建信",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159776.SZ",
+      "name": "港股医药ETF银华",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159777.SZ",
+      "name": "创科技ETF国联安",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159778.SZ",
+      "name": "工业互联网ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "制造"
+    },
+    {
+      "code": "159779.SZ",
+      "name": "消费电子ETF招商",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159780.SZ",
+      "name": "科创创业50ETF南方",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159781.SZ",
+      "name": "科创创业ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159782.SZ",
+      "name": "双创50ETF银华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159783.SZ",
+      "name": "科创创业50ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159786.SZ",
+      "name": "VRETF银华",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159787.SZ",
+      "name": "建材ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "基建"
+    },
+    {
+      "code": "159788.SZ",
+      "name": "港股通100ETF易方达",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159790.SZ",
+      "name": "碳中和ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159791.SZ",
+      "name": "300ESGETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "沪深300"
+    },
+    {
+      "code": "159792.SZ",
+      "name": "港股通互联网ETF富国",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159793.SZ",
+      "name": "线上消费ETF平安",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159795.SZ",
+      "name": "智能汽车ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "汽车"
+    },
+    {
+      "code": "159796.SZ",
+      "name": "电池ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159797.SZ",
+      "name": "医疗器械ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159798.SZ",
+      "name": "消费ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159800.SZ",
+      "name": "中证800ETF鹏华",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159801.SZ",
+      "name": "芯片ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159804.SZ",
+      "name": "创中盘88ETF国寿",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159805.SZ",
+      "name": "传媒ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159806.SZ",
+      "name": "新能源车ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159807.SZ",
+      "name": "科技ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159808.SZ",
+      "name": "创100ETF融通",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159810.SZ",
+      "name": "创业板ETF浦银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159811.SZ",
+      "name": "5GETF博时",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159812.SZ",
+      "name": "黄金ETF前海开源",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "贵金属"
+    },
+    {
+      "code": "159813.SZ",
+      "name": "半导体ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159814.SZ",
+      "name": "创业大盘ETF西部利得",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159816.SZ",
+      "name": "0-4年地方债ETF鹏华",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159819.SZ",
+      "name": "人工智能ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159820.SZ",
+      "name": "中证500ETF天弘",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证500"
+    },
+    {
+      "code": "159821.SZ",
+      "name": "创业板ETF中银证券",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159822.SZ",
+      "name": "新经济ETF银华",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159824.SZ",
+      "name": "新能源车ETF博时",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159825.SZ",
+      "name": "农业ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159827.SZ",
+      "name": "农业ETF银华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159828.SZ",
+      "name": "医疗ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159830.SZ",
+      "name": "金ETF天弘",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "贵金属"
+    },
+    {
+      "code": "159831.SZ",
+      "name": "金ETF嘉实",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "贵金属"
+    },
+    {
+      "code": "159834.SZ",
+      "name": "金ETF南方",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "贵金属"
+    },
+    {
+      "code": "159835.SZ",
+      "name": "创新药ETF建信",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159836.SZ",
+      "name": "创业板300ETF天弘",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "沪深300"
+    },
+    {
+      "code": "159837.SZ",
+      "name": "生物科技ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159838.SZ",
+      "name": "医药50ETF博时",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159839.SZ",
+      "name": "生物医药ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159840.SZ",
+      "name": "锂电池ETF工银",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159841.SZ",
+      "name": "证券ETF天弘",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159842.SZ",
+      "name": "券商ETF银华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159843.SZ",
+      "name": "食品饮料ETF招商",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159845.SZ",
+      "name": "中证1000ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证1000"
+    },
+    {
+      "code": "159847.SZ",
+      "name": "医疗ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159848.SZ",
+      "name": "证券ETF国联安",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159849.SZ",
+      "name": "生物科技ETF招商",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159850.SZ",
+      "name": "恒生国企ETF华夏",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159851.SZ",
+      "name": "金融科技ETF华宝",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159852.SZ",
+      "name": "软件ETF嘉实",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159855.SZ",
+      "name": "影视ETF银华",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159856.SZ",
+      "name": "互联网龙头ETF工银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
+      "code": "159857.SZ",
+      "name": "光伏ETF天弘",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159858.SZ",
+      "name": "创新药ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159859.SZ",
+      "name": "生物医药ETF天弘",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159861.SZ",
+      "name": "碳中和50ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159862.SZ",
+      "name": "食品饮料ETF银华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159863.SZ",
+      "name": "光伏ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159864.SZ",
+      "name": "光伏ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159865.SZ",
+      "name": "养殖ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159866.SZ",
+      "name": "日经ETF工银",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "日韩"
+    },
+    {
+      "code": "159867.SZ",
+      "name": "养殖ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159869.SZ",
+      "name": "游戏ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159870.SZ",
+      "name": "化工ETF鹏华",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159871.SZ",
+      "name": "有色ETF银华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159872.SZ",
+      "name": "智能网联汽车ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "汽车"
+    },
+    {
+      "code": "159873.SZ",
+      "name": "医疗设备ETF天弘",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159875.SZ",
+      "name": "新能源ETF嘉实",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159876.SZ",
+      "name": "有色ETF华宝",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159877.SZ",
+      "name": "医疗ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159880.SZ",
+      "name": "有色ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159881.SZ",
+      "name": "有色金属ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159883.SZ",
+      "name": "医疗器械ETF永赢",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159885.SZ",
+      "name": "碳中和ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "159886.SZ",
+      "name": "机械ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "制造"
+    },
+    {
+      "code": "159887.SZ",
+      "name": "银行ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159888.SZ",
+      "name": "智能汽车ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "汽车"
+    },
+    {
+      "code": "159889.SZ",
+      "name": "智能汽车ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "汽车"
+    },
+    {
+      "code": "159890.SZ",
+      "name": "云计算ETF招商",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159891.SZ",
+      "name": "医疗ETF建信",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159892.SZ",
+      "name": "恒生医药ETF华夏",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159895.SZ",
+      "name": "物联网ETF易方达",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159896.SZ",
+      "name": "物联网ETF南方",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159898.SZ",
+      "name": "医疗器械ETF招商",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159899.SZ",
+      "name": "软件ETF招商",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159901.SZ",
+      "name": "深证100ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159902.SZ",
+      "name": "中小100ETF华夏",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159903.SZ",
+      "name": "深成ETF南方",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159905.SZ",
+      "name": "红利ETF工银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159906.SZ",
+      "name": "深成长ETF大成",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159907.SZ",
+      "name": "国证2000ETF广发",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证2000"
+    },
+    {
+      "code": "159908.SZ",
+      "name": "创业板ETF博时",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159909.SZ",
+      "name": "TMT50ETF招商",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159910.SZ",
+      "name": "基本面120ETF嘉实",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159912.SZ",
+      "name": "深300ETF汇添富",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "沪深300"
+    },
+    {
+      "code": "159913.SZ",
+      "name": "深价值ETF交银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "159915.SZ",
+      "name": "创业板ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159916.SZ",
+      "name": "基本面ETF建信",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159918.SZ",
+      "name": "中创400ETF嘉实",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159919.SZ",
+      "name": "沪深300ETF嘉实",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "沪深300"
+    },
+    {
+      "code": "159920.SZ",
+      "name": "恒生ETF华夏",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159922.SZ",
+      "name": "中证500ETF嘉实",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证500"
+    },
+    {
+      "code": "159923.SZ",
+      "name": "中证A100ETF大成",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
+    },
+    {
+      "code": "159925.SZ",
+      "name": "沪深300ETF南方",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "沪深300"
+    },
+    {
+      "code": "159928.SZ",
+      "name": "消费ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159929.SZ",
+      "name": "医药ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159930.SZ",
+      "name": "能源ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "能源"
+    },
+    {
+      "code": "159931.SZ",
+      "name": "金融地产ETF汇添富",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159933.SZ",
+      "name": "金融地产ETF国投瑞银",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159934.SZ",
+      "name": "黄金ETF易方达",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "贵金属"
+    },
+    {
+      "code": "159935.SZ",
+      "name": "中证500ETF景顺",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证500"
+    },
+    {
+      "code": "159936.SZ",
+      "name": "可选消费ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159937.SZ",
+      "name": "黄金ETF博时",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "贵金属"
+    },
+    {
+      "code": "159938.SZ",
+      "name": "医药ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159939.SZ",
+      "name": "信息技术ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159940.SZ",
+      "name": "金融地产ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159941.SZ",
+      "name": "纳指ETF广发",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "美股"
+    },
+    {
+      "code": "159943.SZ",
+      "name": "深证成指ETF大成",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159944.SZ",
+      "name": "材料ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159945.SZ",
+      "name": "能源ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "能源"
+    },
+    {
+      "code": "159948.SZ",
+      "name": "创业板ETF南方",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159949.SZ",
+      "name": "创业板50ETF华安",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159952.SZ",
+      "name": "创业板ETF广发",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159954.SZ",
+      "name": "恒生中国企业ETF南方",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159956.SZ",
+      "name": "创业板ETF建信",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159957.SZ",
+      "name": "创业板ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159958.SZ",
+      "name": "创业板ETF工银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159959.SZ",
+      "name": "央企ETF银华",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159960.SZ",
+      "name": "恒生中国企业ETF平安",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "159961.SZ",
+      "name": "深100ETF方正富邦",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159964.SZ",
+      "name": "创业板ETF平安",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159965.SZ",
+      "name": "央视50ETF国联",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159966.SZ",
+      "name": "创业板价值ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159967.SZ",
+      "name": "创业板成长ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159968.SZ",
+      "name": "中证500ETF博时",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证500"
+    },
+    {
+      "code": "159970.SZ",
+      "name": "深100ETF工银",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159971.SZ",
+      "name": "创业板ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159972.SZ",
+      "name": "5年地方债ETF鹏华",
+      "family": "bond",
+      "boardName": "债券",
+      "subBoardName": "信用债"
+    },
+    {
+      "code": "159973.SZ",
+      "name": "民企ETF弘毅远方",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159974.SZ",
+      "name": "央企创新ETF富国",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159975.SZ",
+      "name": "深100ETF招商",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "深证"
+    },
+    {
+      "code": "159976.SZ",
+      "name": "湾创ETF工银",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "159977.SZ",
+      "name": "创业板ETF天弘",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159980.SZ",
+      "name": "有色ETF大成",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
+      "code": "159981.SZ",
+      "name": "能源化工ETF建信",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "能源化工"
+    },
+    {
+      "code": "159982.SZ",
+      "name": "中证500ETF鹏华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证500"
+    },
+    {
+      "code": "159985.SZ",
+      "name": "豆粕ETF华夏",
+      "family": "commodity",
+      "boardName": "商品",
+      "subBoardName": "农产品"
+    },
+    {
+      "code": "159991.SZ",
+      "name": "创业板大盘ETF招商",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
+      "code": "159992.SZ",
+      "name": "创新药ETF银华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "医药"
+    },
+    {
+      "code": "159993.SZ",
+      "name": "证券ETF鹏华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "159994.SZ",
+      "name": "通信ETF银华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159995.SZ",
+      "name": "芯片ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159996.SZ",
+      "name": "家电ETF国泰",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
+      "code": "159997.SZ",
+      "name": "电子ETF天弘",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
+      "code": "159998.SZ",
+      "name": "计算机ETF天弘",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
     {
       "code": "510010.SH",
       "name": "180治理ETF交银",
@@ -983,6 +6534,13 @@
       "subBoardName": "科技"
     },
     {
+      "code": "512490.SH",
+      "name": "红利低波100ETF华安",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
       "code": "512500.SH",
       "name": "中证500ETF华夏",
       "family": "broad",
@@ -1655,6 +7213,13 @@
       "subBoardName": "港股"
     },
     {
+      "code": "513790.SH",
+      "name": "港股红利低波ETF博时",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
       "code": "513800.SH",
       "name": "日本东证指数ETF南方",
       "family": "crossborder",
@@ -1950,6 +7515,13 @@
     },
     {
       "code": "515290.SH",
+      "name": "银行ETF天弘",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
+      "code": "515293.SH",
       "name": "银行ETF天弘",
       "family": "hangye",
       "boardName": "行业",
@@ -2412,6 +7984,13 @@
     },
     {
       "code": "516160.SH",
+      "name": "新能源ETF南方",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "516163.SH",
       "name": "新能源ETF南方",
       "family": "hangye",
       "boardName": "行业",
@@ -2971,6 +8550,13 @@
       "subBoardName": "科技"
     },
     {
+      "code": "517250.SH",
+      "name": "智能驾驶ETF易方达",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
       "code": "517300.SH",
       "name": "沪港深300ETF国寿",
       "family": "broad",
@@ -3342,6 +8928,13 @@
       "subBoardName": "港股"
     },
     {
+      "code": "520800.SH",
+      "name": "港股通汽车ETF嘉实",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
       "code": "520810.SH",
       "name": "港股通红利ETF易方达",
       "family": "crossborder",
@@ -3420,7 +9013,7 @@
     },
     {
       "code": "520920.SH",
-      "name": "恒生科技ETF天弘",
+      "name": "天弘恒生科技ETF",
       "family": "crossborder",
       "boardName": "跨境",
       "subBoardName": "港股"
@@ -3489,6 +9082,13 @@
       "subBoardName": "港股"
     },
     {
+      "code": "526020.SH",
+      "name": "港股通汽车ETF华泰柏瑞",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
       "code": "526030.SH",
       "name": "港股通信息技术ETF汇添富",
       "family": "crossborder",
@@ -3512,6 +9112,13 @@
     {
       "code": "526070.SH",
       "name": "恒指港股通ETF博时",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
+      "code": "526080.SH",
+      "name": "恒生生物科技ETF东财",
       "family": "crossborder",
       "boardName": "跨境",
       "subBoardName": "港股"
@@ -3620,90 +9227,6 @@
       "family": "broad",
       "boardName": "宽基",
       "subBoardName": "红利低波"
-    },
-    {
-      "code": "551000.SH",
-      "name": "科创债ETF博时",
-      "family": "bond",
-      "boardName": "债券",
-      "subBoardName": "信用债"
-    },
-    {
-      "code": "551030.SH",
-      "name": "科创债ETF鹏华",
-      "family": "bond",
-      "boardName": "债券",
-      "subBoardName": "信用债"
-    },
-    {
-      "code": "551060.SH",
-      "name": "科创债ETF中银",
-      "family": "bond",
-      "boardName": "债券",
-      "subBoardName": "信用债"
-    },
-    {
-      "code": "551300.SH",
-      "name": "科创债ETF摩根",
-      "family": "bond",
-      "boardName": "债券",
-      "subBoardName": "信用债"
-    },
-    {
-      "code": "551500.SH",
-      "name": "科创债ETF易方达",
-      "family": "bond",
-      "boardName": "债券",
-      "subBoardName": "信用债"
-    },
-    {
-      "code": "551510.SH",
-      "name": "科创债ETF华泰柏瑞",
-      "family": "bond",
-      "boardName": "债券",
-      "subBoardName": "信用债"
-    },
-    {
-      "code": "551520.SH",
-      "name": "科创债ETF汇添富",
-      "family": "bond",
-      "boardName": "债券",
-      "subBoardName": "信用债"
-    },
-    {
-      "code": "551550.SH",
-      "name": "科创债ETF华夏",
-      "family": "bond",
-      "boardName": "债券",
-      "subBoardName": "信用债"
-    },
-    {
-      "code": "551560.SH",
-      "name": "科创债ETF兴业",
-      "family": "bond",
-      "boardName": "债券",
-      "subBoardName": "信用债"
-    },
-    {
-      "code": "551580.SH",
-      "name": "科创债ETF泰康",
-      "family": "bond",
-      "boardName": "债券",
-      "subBoardName": "信用债"
-    },
-    {
-      "code": "551800.SH",
-      "name": "科创债ETF国泰",
-      "family": "bond",
-      "boardName": "债券",
-      "subBoardName": "信用债"
-    },
-    {
-      "code": "551900.SH",
-      "name": "科创债ETF招商",
-      "family": "bond",
-      "boardName": "债券",
-      "subBoardName": "信用债"
     },
     {
       "code": "560010.SH",
@@ -3963,6 +9486,13 @@
       "family": "hangye",
       "boardName": "行业",
       "subBoardName": "消费"
+    },
+    {
+      "code": "560430.SH",
+      "name": "A500ETF中银证券",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "中证A系列"
     },
     {
       "code": "560450.SH",
@@ -4427,6 +9957,13 @@
       "subBoardName": "能源"
     },
     {
+      "code": "561270.SH",
+      "name": "家电龙头ETF鹏华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "规模指数"
+    },
+    {
       "code": "561280.SH",
       "name": "中证1000增强ETF工银",
       "family": "broad",
@@ -4544,6 +10081,13 @@
       "family": "hangye",
       "boardName": "行业",
       "subBoardName": "消费"
+    },
+    {
+      "code": "561480.SH",
+      "name": "银行ETF工银",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
     },
     {
       "code": "561490.SH",
@@ -4735,6 +10279,13 @@
       "subBoardName": "资源"
     },
     {
+      "code": "561860.SH",
+      "name": "银行ETF大成",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
+    },
+    {
       "code": "561870.SH",
       "name": "现金流全指ETF华富",
       "family": "money",
@@ -4796,6 +10347,13 @@
       "family": "other",
       "boardName": "其他",
       "subBoardName": "其他"
+    },
+    {
+      "code": "561970.SH",
+      "name": "稀有金属ETF博时",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
     },
     {
       "code": "561980.SH",
@@ -4861,6 +10419,20 @@
       "subBoardName": "货币"
     },
     {
+      "code": "562090.SH",
+      "name": "汽车ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "汽车"
+    },
+    {
+      "code": "562100.SH",
+      "name": "工程机械ETF永赢",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "基建"
+    },
+    {
       "code": "562110.SH",
       "name": "云计算50ETF东方红",
       "family": "hangye",
@@ -4894,6 +10466,20 @@
       "family": "broad",
       "boardName": "宽基",
       "subBoardName": "红利低波"
+    },
+    {
+      "code": "562210.SH",
+      "name": "光伏ETF华宝",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "562220.SH",
+      "name": "电网设备ETF富国",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
     },
     {
       "code": "562300.SH",
@@ -4943,6 +10529,13 @@
       "family": "hangye",
       "boardName": "行业",
       "subBoardName": "科技"
+    },
+    {
+      "code": "562370.SH",
+      "name": "卫星ETF嘉实",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
     },
     {
       "code": "562380.SH",
@@ -5050,6 +10643,13 @@
       "subBoardName": "医药"
     },
     {
+      "code": "562630.SH",
+      "name": "通信ETF易方达",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
       "code": "562660.SH",
       "name": "中证2000ETF华夏",
       "family": "broad",
@@ -5057,11 +10657,39 @@
       "subBoardName": "中证2000"
     },
     {
+      "code": "562690.SH",
+      "name": "养殖ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "消费"
+    },
+    {
       "code": "562700.SH",
       "name": "汽车零部件ETF华夏",
       "family": "hangye",
       "boardName": "行业",
       "subBoardName": "汽车"
+    },
+    {
+      "code": "562710.SH",
+      "name": "上证指数增强ETF鹏华",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "上证"
+    },
+    {
+      "code": "562720.SH",
+      "name": "电网设备ETF天弘",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "562730.SH",
+      "name": "软件ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
     },
     {
       "code": "562800.SH",
@@ -5230,6 +10858,13 @@
       "family": "broad",
       "boardName": "宽基",
       "subBoardName": "上证50"
+    },
+    {
+      "code": "563100.SH",
+      "name": "红利增长ETF易方达",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
     },
     {
       "code": "563150.SH",
@@ -5464,21 +11099,21 @@
     },
     {
       "code": "563760.SH",
-      "name": "现金流ETF中银",
+      "name": "全指现金流ETF中银",
       "family": "money",
       "boardName": "货币",
       "subBoardName": "货币"
     },
     {
       "code": "563770.SH",
-      "name": "全指现金流ETF招商",
+      "name": "现金流ETF招商",
       "family": "money",
       "boardName": "货币",
       "subBoardName": "货币"
     },
     {
       "code": "563780.SH",
-      "name": "现金流全指ETF方正富邦",
+      "name": "现金流ETF方正富邦",
       "family": "money",
       "boardName": "货币",
       "subBoardName": "货币"
@@ -5499,7 +11134,7 @@
     },
     {
       "code": "563830.SH",
-      "name": "全指现金流ETF博时",
+      "name": "自由现金流ETF博时",
       "family": "money",
       "boardName": "货币",
       "subBoardName": "货币"
@@ -5573,6 +11208,69 @@
       "family": "money",
       "boardName": "货币",
       "subBoardName": "货币"
+    },
+    {
+      "code": "581000.SH",
+      "name": "大盘成长主动ETF摩根",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "成长风格"
+    },
+    {
+      "code": "581010.SH",
+      "name": "均衡智选主动ETF汇添富",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "581020.SH",
+      "name": "均衡主动ETF华安",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "581030.SH",
+      "name": "质量主动ETF华夏",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "581050.SH",
+      "name": "品质均衡主动ETF易方达",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "581060.SH",
+      "name": "景气均衡主动ETF永赢",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
+      "code": "581070.SH",
+      "name": "红利主动ETF平安",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "581080.SH",
+      "name": "价值主动ETF招商",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "581090.SH",
+      "name": "价值精选主动ETF华泰柏瑞",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
     },
     {
       "code": "588000.SH",
@@ -5904,6 +11602,13 @@
       "subBoardName": "创业板"
     },
     {
+      "code": "588490.SH",
+      "name": "科创创业人工智能ETF泰康",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
       "code": "588500.SH",
       "name": "科创100增强ETF易方达",
       "family": "broad",
@@ -5937,6 +11642,13 @@
       "family": "broad",
       "boardName": "宽基",
       "subBoardName": "科创板"
+    },
+    {
+      "code": "588560.SH",
+      "name": "科创创业人工智能ETF华富",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
     },
     {
       "code": "588660.SH",
@@ -6394,6 +12106,13 @@
       "subBoardName": "科创板"
     },
     {
+      "code": "589370.SH",
+      "name": "科创芯片设计ETF华安",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "科创板"
+    },
+    {
       "code": "589380.SH",
       "name": "科创人工智能ETF富国",
       "family": "broad",
@@ -6431,6 +12150,13 @@
     {
       "code": "589430.SH",
       "name": "科创芯片设计ETF华宝",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "科创板"
+    },
+    {
+      "code": "589450.SH",
+      "name": "科创人工智能ETF兴业",
       "family": "broad",
       "boardName": "宽基",
       "subBoardName": "科创板"
@@ -6499,8 +12225,22 @@
       "subBoardName": "科创板"
     },
     {
+      "code": "589590.SH",
+      "name": "科创芯片设计ETF华泰柏瑞",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "科创板"
+    },
+    {
       "code": "589600.SH",
       "name": "科创综指ETF富国",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "科创板"
+    },
+    {
+      "code": "589610.SH",
+      "name": "科创芯片ETF华夏",
       "family": "broad",
       "boardName": "宽基",
       "subBoardName": "科创板"
@@ -6515,6 +12255,13 @@
     {
       "code": "589660.SH",
       "name": "科创综指ETF南方",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "科创板"
+    },
+    {
+      "code": "589670.SH",
+      "name": "科创新材料ETF华夏",
       "family": "broad",
       "boardName": "宽基",
       "subBoardName": "科创板"
