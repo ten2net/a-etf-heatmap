@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-13T17:58:12.447Z",
-  "count": 1768,
+  "updatedAt": "2026-11-16T20:38:16.613Z",
+  "count": 1769,
   "etfs": [
     {
       "code": "158000.SZ",
@@ -1009,6 +1009,13 @@
       "family": "broad",
       "boardName": "宽基",
       "subBoardName": "红利低波"
+    },
+    {
+      "code": "159080.SZ",
+      "name": "银行ETF东财",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "金融"
     },
     {
       "code": "159082.SZ",
