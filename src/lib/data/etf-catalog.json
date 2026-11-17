@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16T20:38:16.613Z",
-  "count": 1769,
+  "updatedAt": "2026-11-17T19:17:19.118Z",
+  "count": 1776,
   "etfs": [
     {
       "code": "158000.SZ",
@@ -402,6 +402,13 @@
       "subBoardName": "红利低波"
     },
     {
+      "code": "158077.SZ",
+      "name": "港股通金融ETF广发",
+      "family": "crossborder",
+      "boardName": "跨境",
+      "subBoardName": "港股"
+    },
+    {
       "code": "158078.SZ",
       "name": "创业板电池ETF华宝",
       "family": "broad",
@@ -458,11 +465,32 @@
       "subBoardName": "创业板"
     },
     {
+      "code": "158096.SZ",
+      "name": "红利质量ETF广发",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
+    },
+    {
+      "code": "158101.SZ",
+      "name": "航空航天ETF广发",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "军工"
+    },
+    {
       "code": "158102.SZ",
       "name": "化工ETF南方",
       "family": "commodity",
       "boardName": "商品",
       "subBoardName": "能源化工"
+    },
+    {
+      "code": "158107.SZ",
+      "name": "储能电池ETF富国",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
     },
     {
       "code": "158900.SZ",
@@ -10650,6 +10678,13 @@
       "subBoardName": "医药"
     },
     {
+      "code": "562610.SH",
+      "name": "机器人ETF中欧",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
+    },
+    {
       "code": "562630.SH",
       "name": "通信ETF易方达",
       "family": "hangye",
@@ -10697,6 +10732,20 @@
       "family": "hangye",
       "boardName": "行业",
       "subBoardName": "科技"
+    },
+    {
+      "code": "562760.SH",
+      "name": "新能源金属ETF华夏",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
+    },
+    {
+      "code": "562790.SH",
+      "name": "新能源金属ETF华宝",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
     },
     {
       "code": "562800.SH",
