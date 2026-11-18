@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T19:17:19.118Z",
-  "count": 1776,
+  "updatedAt": "2026-11-18T18:58:26.685Z",
+  "count": 1779,
   "etfs": [
     {
       "code": "158000.SZ",
@@ -491,6 +491,13 @@
       "family": "hangye",
       "boardName": "行业",
       "subBoardName": "新能源"
+    },
+    {
+      "code": "158110.SZ",
+      "name": "通信ETF天弘",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "科技"
     },
     {
       "code": "158900.SZ",
@@ -1081,11 +1088,25 @@
       "subBoardName": "能源化工"
     },
     {
+      "code": "159088.SZ",
+      "name": "稀有金属ETF华安",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
+    },
+    {
       "code": "159089.SZ",
       "name": "港股通互联网ETF国联",
       "family": "crossborder",
       "boardName": "跨境",
       "subBoardName": "港股"
+    },
+    {
+      "code": "159090.SZ",
+      "name": "稀有金属ETF银华",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "资源"
     },
     {
       "code": "159091.SZ",
@@ -10322,7 +10343,7 @@
     },
     {
       "code": "561870.SH",
-      "name": "现金流全指ETF华富",
+      "name": "现金流ETF华富",
       "family": "money",
       "boardName": "货币",
       "subBoardName": "货币"
