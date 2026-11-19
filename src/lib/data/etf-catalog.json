@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-18T18:58:26.685Z",
-  "count": 1779,
+  "updatedAt": "2026-11-19T19:06:27.603Z",
+  "count": 1781,
   "etfs": [
     {
       "code": "158000.SZ",
@@ -498,6 +498,13 @@
       "family": "hangye",
       "boardName": "行业",
       "subBoardName": "科技"
+    },
+    {
+      "code": "158111.SZ",
+      "name": "创业板人工智能ETF天弘",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
     },
     {
       "code": "158900.SZ",
@@ -10270,6 +10277,13 @@
       "family": "hangye",
       "boardName": "行业",
       "subBoardName": "能源"
+    },
+    {
+      "code": "561720.SH",
+      "name": "工程机械ETF平安",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "基建"
     },
     {
       "code": "561730.SH",
