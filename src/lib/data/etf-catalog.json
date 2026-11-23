@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-20T18:43:58.154Z",
-  "count": 1781,
+  "updatedAt": "2026-11-23T22:10:42.960Z",
+  "count": 1786,
   "etfs": [
     {
       "code": "158000.SZ",
@@ -1058,6 +1058,13 @@
       "family": "hangye",
       "boardName": "行业",
       "subBoardName": "金融"
+    },
+    {
+      "code": "159081.SZ",
+      "name": "新能源车ETF嘉实",
+      "family": "hangye",
+      "boardName": "行业",
+      "subBoardName": "新能源"
     },
     {
       "code": "159082.SZ",
@@ -10552,6 +10559,13 @@
       "subBoardName": "其他"
     },
     {
+      "code": "562290.SH",
+      "name": "电网设备ETF华宝",
+      "family": "other",
+      "boardName": "其他",
+      "subBoardName": "其他"
+    },
+    {
       "code": "562300.SH",
       "name": "碳中和ETF银华",
       "family": "hangye",
@@ -10963,6 +10977,13 @@
       "family": "hangye",
       "boardName": "行业",
       "subBoardName": "能源"
+    },
+    {
+      "code": "563160.SH",
+      "name": "红利增长ETF招商",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "红利低波"
     },
     {
       "code": "563180.SH",
@@ -11742,6 +11763,13 @@
       "subBoardName": "创业板"
     },
     {
+      "code": "588590.SH",
+      "name": "科创创业ETF华泰柏瑞",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "创业板"
+    },
+    {
       "code": "588660.SH",
       "name": "科创创业50ETF兴银",
       "family": "broad",
@@ -12255,6 +12283,13 @@
     {
       "code": "589460.SH",
       "name": "科创200ETF华宝",
+      "family": "broad",
+      "boardName": "宽基",
+      "subBoardName": "科创板"
+    },
+    {
+      "code": "589470.SH",
+      "name": "科创芯片设计ETF景顺",
       "family": "broad",
       "boardName": "宽基",
       "subBoardName": "科创板"
